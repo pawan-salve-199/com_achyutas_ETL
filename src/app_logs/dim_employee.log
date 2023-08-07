@@ -1,0 +1,5 @@
+2023-08-06 21:06:30,912 - INFO - Line 28 - Entering start_spark method.
+2023-08-06 21:06:42,653 - INFO - Line 50 - Configured the Spark for the specified dependencies
+2023-08-06 21:06:42,654 - INFO - Line 30 - Spark Session Initialized.
+2023-08-06 21:06:48,642 - ERROR - Line 107 - Error while reading data: [UNABLE_TO_INFER_SCHEMA] Unable to infer schema for Parquet. It must be specified manually.
+------------------------------------------------------------------------------------------------------------------------------------------------------

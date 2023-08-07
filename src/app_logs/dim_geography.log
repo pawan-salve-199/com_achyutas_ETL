@@ -1,0 +1,16 @@
+2023-08-05 14:51:31,127 - INFO - Line 28 - Entering start_spark method.
+2023-08-05 14:51:54,512 - INFO - Line 50 - Configured the Spark for the specified dependencies
+2023-08-05 14:51:54,512 - INFO - Line 30 - Spark Session Initialized.
+2023-08-05 14:52:06,736 - INFO - Line 100 - Data read from JDBC source for DimGeography
+2023-08-05 14:52:06,744 - INFO - Line 23 - Generating Geography data and combining it with the existing data.
+2023-08-05 14:52:17,965 - INFO - Line 68 - Geography data generated Successfully and combined with the existing data.
+2023-08-05 14:52:37,347 - INFO - Line 134 - Data written to file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-05 17:09:15,186 - INFO - Line 28 - Entering start_spark method.
+2023-08-05 17:09:36,880 - INFO - Line 50 - Configured the Spark for the specified dependencies
+2023-08-05 17:09:36,880 - INFO - Line 30 - Spark Session Initialized.
+2023-08-05 17:09:49,108 - INFO - Line 100 - Data read from JDBC source for DimGeography
+2023-08-05 17:09:49,108 - INFO - Line 23 - Generating Geography data and combining it with the existing data.
+2023-08-05 17:10:00,307 - INFO - Line 68 - Geography data generated Successfully and combined with the existing data.
+2023-08-05 17:10:16,942 - INFO - Line 134 - Data written to file.
+------------------------------------------------------------------------------------------------------------------------------------------------------

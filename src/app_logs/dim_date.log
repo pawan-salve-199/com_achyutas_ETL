@@ -1,0 +1,16 @@
+2023-08-04 15:31:02,703 - INFO - Line 28 - Entering start_spark method.
+2023-08-04 15:31:17,858 - INFO - Line 50 - Configured the Spark for the specified dependencies
+2023-08-04 15:31:17,859 - INFO - Line 30 - Spark Session Initialized.
+2023-08-04 15:31:25,711 - INFO - Line 100 - Data read from JDBC source for DimDate
+2023-08-04 15:31:25,712 - INFO - Line 17 - Generating date data and combining it with the existing data.
+2023-08-04 15:31:29,656 - INFO - Line 174 - Date data generated successfully and combined with the existing data.
+2023-08-04 15:31:42,275 - INFO - Line 134 - Data written to file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-04 15:32:02,969 - INFO - Line 28 - Entering start_spark method.
+2023-08-04 15:32:19,027 - INFO - Line 50 - Configured the Spark for the specified dependencies
+2023-08-04 15:32:19,028 - INFO - Line 30 - Spark Session Initialized.
+2023-08-04 15:32:29,464 - INFO - Line 100 - Data read from JDBC source for DimDate
+2023-08-04 15:32:29,465 - INFO - Line 17 - Generating date data and combining it with the existing data.
+2023-08-04 15:32:36,342 - INFO - Line 174 - Date data generated successfully and combined with the existing data.
+2023-08-04 15:32:53,496 - INFO - Line 134 - Data written to file.
+------------------------------------------------------------------------------------------------------------------------------------------------------

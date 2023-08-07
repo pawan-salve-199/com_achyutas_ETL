@@ -1,0 +1,1157 @@
+2023-07-28 08:48:39,414 - INFO - Line 19 - Spark session started.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 08:50:27,332 - INFO - Line 19 - Spark session started.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 09:00:38,084 - INFO - Line 18 - Spark session started.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 09:01:34,309 - INFO - Line 18 - Spark session started.
+2023-07-28 09:01:40,893 - INFO - Line 48 - Data read from JDBC source.
+2023-07-28 09:01:40,893 - INFO - Line 48 - Data read from JDBC source.
+2023-07-28 09:01:54,141 - INFO - Line 68 - Data written to file.
+2023-07-28 09:01:54,141 - INFO - Line 68 - Data written to file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 09:03:43,804 - INFO - Line 18 - Spark session started.
+2023-07-28 09:03:49,856 - INFO - Line 48 - Data read from JDBC source.
+2023-07-28 09:03:49,856 - INFO - Line 48 - Data read from JDBC source.
+2023-07-28 09:04:03,789 - INFO - Line 68 - Data written to file.
+2023-07-28 09:04:03,789 - INFO - Line 68 - Data written to file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 09:26:52,990 - INFO - Line 33 - Spark session started.
+2023-07-28 09:26:59,888 - INFO - Line 77 - Data read from JDBC source for dbo.DimGeography
+2023-07-28 09:26:59,888 - INFO - Line 77 - Data read from JDBC source for dbo.DimGeography
+2023-07-28 09:27:15,019 - ERROR - Line 109 - Error while writing data: 
+  An exception was thrown from the Python worker. Please see the stack trace below.
+Traceback (most recent call last):
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 814, in main
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 650, in read_udfs
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 375, in read_single_udf
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 87, in read_command
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 174, in _read_with_length
+    return self.loads(obj)
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 472, in loads
+    return cloudpickle.loads(obj, encoding=encoding)
+ModuleNotFoundError: No module named 'faker'
+
+2023-07-28 09:27:15,019 - ERROR - Line 109 - Error while writing data: 
+  An exception was thrown from the Python worker. Please see the stack trace below.
+Traceback (most recent call last):
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 814, in main
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 650, in read_udfs
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 375, in read_single_udf
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 87, in read_command
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 174, in _read_with_length
+    return self.loads(obj)
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 472, in loads
+    return cloudpickle.loads(obj, encoding=encoding)
+ModuleNotFoundError: No module named 'faker'
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 09:28:12,590 - INFO - Line 33 - Spark session started.
+2023-07-28 09:28:20,714 - INFO - Line 77 - Data read from JDBC source for dbo.DimGeography
+2023-07-28 09:28:20,714 - INFO - Line 77 - Data read from JDBC source for dbo.DimGeography
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 09:35:19,429 - INFO - Line 33 - Spark session started.
+2023-07-28 09:35:27,638 - INFO - Line 77 - Data read from JDBC source for dbo.DimGeography
+2023-07-28 09:35:27,638 - INFO - Line 77 - Data read from JDBC source for dbo.DimGeography
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 09:37:18,220 - INFO - Line 33 - Spark session started.
+2023-07-28 09:37:25,110 - INFO - Line 77 - Data read from JDBC source for dbo.DimGeography
+2023-07-28 09:37:25,110 - INFO - Line 77 - Data read from JDBC source for dbo.DimGeography
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 09:37:52,118 - INFO - Line 33 - Spark session started.
+2023-07-28 09:37:59,077 - INFO - Line 77 - Data read from JDBC source for dbo.DimGeography
+2023-07-28 09:37:59,077 - INFO - Line 77 - Data read from JDBC source for dbo.DimGeography
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 09:39:36,220 - INFO - Line 33 - Spark session started.
+2023-07-28 09:39:43,157 - INFO - Line 77 - Data read from JDBC source for dbo.DimGeography
+2023-07-28 09:39:43,157 - INFO - Line 77 - Data read from JDBC source for dbo.DimGeography
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 09:41:23,692 - INFO - Line 33 - Spark session started.
+2023-07-28 09:41:31,379 - INFO - Line 77 - Data read from JDBC source for dbo.DimGeography
+2023-07-28 09:41:31,379 - INFO - Line 77 - Data read from JDBC source for dbo.DimGeography
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 09:42:51,472 - INFO - Line 33 - Spark session started.
+2023-07-28 09:42:58,859 - INFO - Line 77 - Data read from JDBC source for dbo.DimGeography
+2023-07-28 09:42:58,859 - INFO - Line 77 - Data read from JDBC source for dbo.DimGeography
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 09:50:52,476 - INFO - Line 33 - Spark session started.
+2023-07-28 09:50:59,718 - INFO - Line 77 - Data read from JDBC source for dbo.DimGeography
+2023-07-28 09:50:59,718 - INFO - Line 77 - Data read from JDBC source for dbo.DimGeography
+2023-07-28 09:51:07,657 - INFO - Line 81 - Data read from file.
+2023-07-28 09:51:07,657 - INFO - Line 81 - Data read from file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 09:53:17,993 - INFO - Line 33 - Spark session started.
+2023-07-28 09:53:25,732 - INFO - Line 78 - Data read from JDBC source for dbo.DimGeography
+2023-07-28 09:53:25,732 - INFO - Line 78 - Data read from JDBC source for dbo.DimGeography
+2023-07-28 09:53:33,595 - INFO - Line 82 - Data read from file.
+2023-07-28 09:53:33,595 - INFO - Line 82 - Data read from file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 09:58:17,170 - INFO - Line 33 - Spark session started.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 10:00:13,497 - INFO - Line 33 - Spark session started.
+2023-07-28 10:00:25,542 - INFO - Line 82 - Data read from file.
+2023-07-28 10:00:25,542 - INFO - Line 82 - Data read from file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 10:01:04,394 - INFO - Line 33 - Spark session started.
+2023-07-28 10:01:15,540 - INFO - Line 82 - Data read from file.
+2023-07-28 10:01:15,540 - INFO - Line 82 - Data read from file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 10:07:12,780 - INFO - Line 33 - Spark session started.
+2023-07-28 10:07:22,152 - INFO - Line 82 - Data read from file.
+2023-07-28 10:07:22,152 - INFO - Line 82 - Data read from file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 10:08:49,985 - INFO - Line 33 - Spark session started.
+2023-07-28 10:08:59,157 - INFO - Line 82 - Data read from file.
+2023-07-28 10:08:59,157 - INFO - Line 82 - Data read from file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 10:11:08,565 - INFO - Line 33 - Spark session started.
+2023-07-28 10:11:18,440 - INFO - Line 82 - Data read from file.
+2023-07-28 10:11:18,440 - INFO - Line 82 - Data read from file.
+2023-07-28 10:11:19,524 - INFO - Line 78 - Data read from JDBC source for dbo.DimCustomer
+2023-07-28 10:11:19,524 - INFO - Line 78 - Data read from JDBC source for dbo.DimCustomer
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 10:14:30,886 - INFO - Line 33 - Spark session started.
+2023-07-28 10:14:41,464 - INFO - Line 82 - Data read from file.
+2023-07-28 10:14:41,464 - INFO - Line 82 - Data read from file.
+2023-07-28 10:14:42,445 - INFO - Line 78 - Data read from JDBC source for dbo.DimCustomer
+2023-07-28 10:14:42,445 - INFO - Line 78 - Data read from JDBC source for dbo.DimCustomer
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 10:26:20,083 - INFO - Line 33 - Spark session started.
+2023-07-28 10:26:34,302 - INFO - Line 82 - Data read from file.
+2023-07-28 10:26:34,302 - INFO - Line 82 - Data read from file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 10:27:34,977 - INFO - Line 33 - Spark session started.
+2023-07-28 10:27:47,150 - INFO - Line 82 - Data read from file.
+2023-07-28 10:27:47,150 - INFO - Line 82 - Data read from file.
+2023-07-28 10:27:48,235 - INFO - Line 78 - Data read from JDBC source for dbo.DimReseller
+2023-07-28 10:27:48,235 - INFO - Line 78 - Data read from JDBC source for dbo.DimReseller
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 10:31:44,248 - INFO - Line 33 - Spark session started.
+2023-07-28 10:31:56,211 - INFO - Line 82 - Data read from file.
+2023-07-28 10:31:56,211 - INFO - Line 82 - Data read from file.
+2023-07-28 10:31:57,387 - INFO - Line 78 - Data read from JDBC source for dbo.DimReseller
+2023-07-28 10:31:57,387 - INFO - Line 78 - Data read from JDBC source for dbo.DimReseller
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 10:38:30,546 - INFO - Line 33 - Spark session started.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 10:40:27,162 - INFO - Line 33 - Spark session started.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 10:42:01,278 - INFO - Line 33 - Spark session started.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 10:42:53,846 - INFO - Line 33 - Spark session started.
+2023-07-28 10:43:07,516 - INFO - Line 82 - Data read from file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 14:43:28,203 - INFO - Line 33 - Spark session started.
+2023-07-28 14:43:48,611 - INFO - Line 82 - Data read from file.
+2023-07-28 14:43:48,611 - INFO - Line 82 - Data read from file.
+2023-07-28 14:43:50,118 - INFO - Line 78 - Data read from JDBC source for dbo.DimReseller
+2023-07-28 14:43:50,118 - INFO - Line 78 - Data read from JDBC source for dbo.DimReseller
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 14:49:40,795 - INFO - Line 33 - Spark session started.
+2023-07-28 14:49:56,830 - INFO - Line 82 - Data read from file.
+2023-07-28 14:49:56,830 - INFO - Line 82 - Data read from file.
+2023-07-28 14:49:58,320 - INFO - Line 78 - Data read from JDBC source for dbo.DimReseller
+2023-07-28 14:49:58,320 - INFO - Line 78 - Data read from JDBC source for dbo.DimReseller
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 14:54:14,048 - INFO - Line 33 - Spark session started.
+2023-07-28 14:54:29,877 - INFO - Line 82 - Data read from file.
+2023-07-28 14:54:29,877 - INFO - Line 82 - Data read from file.
+2023-07-28 14:54:31,430 - INFO - Line 78 - Data read from JDBC source for dbo.DimReseller
+2023-07-28 14:54:31,430 - INFO - Line 78 - Data read from JDBC source for dbo.DimReseller
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 14:57:02,671 - INFO - Line 33 - Spark session started.
+2023-07-28 14:57:21,684 - INFO - Line 82 - Data read from file.
+2023-07-28 14:57:21,684 - INFO - Line 82 - Data read from file.
+2023-07-28 14:57:23,503 - INFO - Line 78 - Data read from JDBC source for dbo.DimReseller
+2023-07-28 14:57:23,503 - INFO - Line 78 - Data read from JDBC source for dbo.DimReseller
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 14:59:07,210 - INFO - Line 33 - Spark session started.
+2023-07-28 14:59:29,496 - INFO - Line 82 - Data read from file.
+2023-07-28 14:59:29,496 - INFO - Line 82 - Data read from file.
+2023-07-28 14:59:30,859 - INFO - Line 78 - Data read from JDBC source for dbo.DimReseller
+2023-07-28 14:59:30,859 - INFO - Line 78 - Data read from JDBC source for dbo.DimReseller
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 15:00:39,604 - INFO - Line 33 - Spark session started.
+2023-07-28 15:01:03,641 - INFO - Line 82 - Data read from file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 15:03:34,229 - INFO - Line 33 - Spark session started.
+2023-07-28 15:03:50,339 - INFO - Line 82 - Data read from file.
+2023-07-28 15:03:50,339 - INFO - Line 82 - Data read from file.
+2023-07-28 15:03:51,738 - INFO - Line 78 - Data read from JDBC source for dbo.DimReseller
+2023-07-28 15:03:51,738 - INFO - Line 78 - Data read from JDBC source for dbo.DimReseller
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 15:24:28,732 - INFO - Line 33 - Spark session started.
+2023-07-28 15:24:39,165 - INFO - Line 78 - Data read from JDBC source for dbo.DimReseller
+2023-07-28 15:24:49,748 - INFO - Line 82 - Data read from file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 15:33:06,254 - INFO - Line 33 - Spark session started.
+2023-07-28 15:33:23,514 - INFO - Line 82 - Data read from file.
+2023-07-28 15:33:23,514 - INFO - Line 82 - Data read from file.
+2023-07-28 15:33:25,443 - INFO - Line 78 - Data read from JDBC source for dbo.DimReseller
+2023-07-28 15:33:25,443 - INFO - Line 78 - Data read from JDBC source for dbo.DimReseller
+2023-07-28 15:33:25,637 - INFO - Line 78 - Data read from JDBC source for dbo.DimReseller
+2023-07-28 15:33:25,637 - INFO - Line 78 - Data read from JDBC source for dbo.DimReseller
+2023-07-28 15:33:50,589 - ERROR - Line 110 - Error while writing data: 
+  An exception was thrown from the Python worker. Please see the stack trace below.
+Traceback (most recent call last):
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 814, in main
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 650, in read_udfs
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 375, in read_single_udf
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 87, in read_command
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 174, in _read_with_length
+    return self.loads(obj)
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 472, in loads
+    return cloudpickle.loads(obj, encoding=encoding)
+ModuleNotFoundError: No module named 'faker'
+
+2023-07-28 15:33:50,589 - ERROR - Line 110 - Error while writing data: 
+  An exception was thrown from the Python worker. Please see the stack trace below.
+Traceback (most recent call last):
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 814, in main
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 650, in read_udfs
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 375, in read_single_udf
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 87, in read_command
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 174, in _read_with_length
+    return self.loads(obj)
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 472, in loads
+    return cloudpickle.loads(obj, encoding=encoding)
+ModuleNotFoundError: No module named 'faker'
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 15:56:26,097 - INFO - Line 33 - Spark session started.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 15:57:37,744 - INFO - Line 33 - Spark session started.
+2023-07-28 15:57:51,983 - INFO - Line 78 - Data read from JDBC source for dbo.DimCustomer
+2023-07-28 15:58:02,285 - INFO - Line 82 - Data read from file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 16:04:52,034 - INFO - Line 33 - Spark session started.
+2023-07-28 16:05:04,181 - INFO - Line 78 - Data read from JDBC source for dbo.DimCurrency
+2023-07-28 16:05:04,181 - INFO - Line 78 - Data read from JDBC source for dbo.DimCurrency
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 16:59:36,741 - INFO - Line 33 - Spark session started.
+2023-07-28 16:59:46,655 - INFO - Line 78 - Data read from JDBC source for dbo.DimCurrency
+2023-07-28 16:59:46,655 - INFO - Line 78 - Data read from JDBC source for dbo.DimCurrency
+2023-07-28 17:00:03,557 - INFO - Line 108 - Data written to file.
+2023-07-28 17:00:03,557 - INFO - Line 108 - Data written to file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 17:02:31,257 - INFO - Line 33 - Spark session started.
+2023-07-28 17:02:42,415 - INFO - Line 82 - Data read from file.
+2023-07-28 17:02:42,415 - INFO - Line 82 - Data read from file.
+2023-07-28 17:02:43,302 - INFO - Line 78 - Data read from JDBC source for dbo.DimCustomer
+2023-07-28 17:02:43,302 - INFO - Line 78 - Data read from JDBC source for dbo.DimCustomer
+2023-07-28 17:02:54,584 - ERROR - Line 110 - Error while writing data: 
+  An exception was thrown from the Python worker. Please see the stack trace below.
+Traceback (most recent call last):
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 814, in main
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 650, in read_udfs
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 375, in read_single_udf
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 87, in read_command
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 174, in _read_with_length
+    return self.loads(obj)
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 472, in loads
+    return cloudpickle.loads(obj, encoding=encoding)
+ModuleNotFoundError: No module named 'faker'
+
+2023-07-28 17:02:54,584 - ERROR - Line 110 - Error while writing data: 
+  An exception was thrown from the Python worker. Please see the stack trace below.
+Traceback (most recent call last):
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 814, in main
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 650, in read_udfs
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 375, in read_single_udf
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 87, in read_command
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 174, in _read_with_length
+    return self.loads(obj)
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 472, in loads
+    return cloudpickle.loads(obj, encoding=encoding)
+ModuleNotFoundError: No module named 'faker'
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-28 17:08:26,558 - INFO - Line 33 - Spark session started.
+2023-07-28 17:08:36,122 - INFO - Line 82 - Data read from file.
+2023-07-28 17:08:36,122 - INFO - Line 82 - Data read from file.
+2023-07-28 17:08:37,191 - INFO - Line 78 - Data read from JDBC source for dbo.DimCustomer
+2023-07-28 17:08:37,191 - INFO - Line 78 - Data read from JDBC source for dbo.DimCustomer
+2023-07-28 17:08:48,101 - ERROR - Line 110 - Error while writing data: 
+  An exception was thrown from the Python worker. Please see the stack trace below.
+Traceback (most recent call last):
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 814, in main
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 650, in read_udfs
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 375, in read_single_udf
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 87, in read_command
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 174, in _read_with_length
+    return self.loads(obj)
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 472, in loads
+    return cloudpickle.loads(obj, encoding=encoding)
+ModuleNotFoundError: No module named 'faker'
+
+2023-07-28 17:08:48,101 - ERROR - Line 110 - Error while writing data: 
+  An exception was thrown from the Python worker. Please see the stack trace below.
+Traceback (most recent call last):
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 814, in main
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 650, in read_udfs
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 375, in read_single_udf
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 87, in read_command
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 174, in _read_with_length
+    return self.loads(obj)
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 472, in loads
+    return cloudpickle.loads(obj, encoding=encoding)
+ModuleNotFoundError: No module named 'faker'
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-30 10:52:42,179 - INFO - Line 33 - Spark session started.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-30 10:53:33,241 - INFO - Line 33 - Spark session started.
+2023-07-30 10:53:43,959 - INFO - Line 78 - Data read from JDBC source for dbo.DimAccount
+2023-07-30 10:53:43,959 - INFO - Line 78 - Data read from JDBC source for dbo.DimAccount
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-30 10:54:08,681 - INFO - Line 33 - Spark session started.
+2023-07-30 10:54:20,291 - INFO - Line 78 - Data read from JDBC source for dbo.DimAccount
+2023-07-30 10:54:20,291 - INFO - Line 78 - Data read from JDBC source for dbo.DimAccount
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-30 11:02:01,451 - INFO - Line 33 - Spark session started.
+2023-07-30 11:02:10,731 - INFO - Line 78 - Data read from JDBC source for dbo.DimAccount
+2023-07-30 11:02:10,731 - INFO - Line 78 - Data read from JDBC source for dbo.DimAccount
+2023-07-30 11:02:19,467 - INFO - Line 108 - Data written to file.
+2023-07-30 11:02:19,467 - INFO - Line 108 - Data written to file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 08:32:53,915 - INFO - Line 33 - Spark session started.
+2023-07-31 08:33:01,367 - INFO - Line 78 - Data read from JDBC source for dbo.DimAccount
+2023-07-31 08:33:01,367 - INFO - Line 78 - Data read from JDBC source for dbo.DimAccount
+2023-07-31 08:33:08,070 - INFO - Line 108 - Data written to file.
+2023-07-31 08:33:08,070 - INFO - Line 108 - Data written to file.
+2023-07-31 08:33:08,231 - INFO - Line 78 - Data read from JDBC source for dbo.DimProduct
+2023-07-31 08:33:08,231 - INFO - Line 78 - Data read from JDBC source for dbo.DimProduct
+2023-07-31 08:33:14,103 - INFO - Line 108 - Data written to file.
+2023-07-31 08:33:14,103 - INFO - Line 108 - Data written to file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 08:33:32,321 - INFO - Line 33 - Spark session started.
+2023-07-31 08:33:39,879 - INFO - Line 78 - Data read from JDBC source for dbo.DimProduct
+2023-07-31 08:33:39,879 - INFO - Line 78 - Data read from JDBC source for dbo.DimProduct
+2023-07-31 08:33:48,901 - INFO - Line 108 - Data written to file.
+2023-07-31 08:33:48,901 - INFO - Line 108 - Data written to file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 08:34:04,163 - INFO - Line 33 - Spark session started.
+2023-07-31 08:34:11,869 - INFO - Line 78 - Data read from JDBC source for dbo.DimProduct
+2023-07-31 08:34:11,869 - INFO - Line 78 - Data read from JDBC source for dbo.DimProduct
+2023-07-31 08:34:21,102 - INFO - Line 108 - Data written to file.
+2023-07-31 08:34:21,102 - INFO - Line 108 - Data written to file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 08:58:17,589 - INFO - Line 33 - Spark session started.
+2023-07-31 08:58:24,673 - INFO - Line 78 - Data read from JDBC source for dbo.DimProduct
+2023-07-31 08:58:24,673 - INFO - Line 78 - Data read from JDBC source for dbo.DimProduct
+2023-07-31 08:58:33,886 - INFO - Line 108 - Data written to file.
+2023-07-31 08:58:33,886 - INFO - Line 108 - Data written to file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 09:03:35,653 - INFO - Line 33 - Spark session started.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 09:04:22,725 - INFO - Line 33 - Spark session started.
+2023-07-31 09:04:29,084 - INFO - Line 78 - Data read from JDBC source for dbo.DimScenario
+2023-07-31 09:04:29,084 - INFO - Line 78 - Data read from JDBC source for dbo.DimScenario
+2023-07-31 09:04:34,548 - INFO - Line 108 - Data written to file.
+2023-07-31 09:04:34,548 - INFO - Line 108 - Data written to file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 09:05:38,957 - INFO - Line 33 - Spark session started.
+2023-07-31 09:05:45,673 - INFO - Line 78 - Data read from JDBC source for dbo.DimOrganization
+2023-07-31 09:05:45,673 - INFO - Line 78 - Data read from JDBC source for dbo.DimOrganization
+2023-07-31 09:05:50,716 - INFO - Line 108 - Data written to file.
+2023-07-31 09:05:50,716 - INFO - Line 108 - Data written to file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 09:12:20,850 - INFO - Line 33 - Spark session started.
+2023-07-31 09:12:27,429 - INFO - Line 78 - Data read from JDBC source for dbo.DimProductCategory
+2023-07-31 09:12:27,429 - INFO - Line 78 - Data read from JDBC source for dbo.DimProductCategory
+2023-07-31 09:12:42,493 - INFO - Line 108 - Data written to file.
+2023-07-31 09:12:42,493 - INFO - Line 108 - Data written to file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 09:13:10,069 - INFO - Line 33 - Spark session started.
+2023-07-31 09:13:17,713 - INFO - Line 78 - Data read from JDBC source for dbo.DimOrganization
+2023-07-31 09:13:17,713 - INFO - Line 78 - Data read from JDBC source for dbo.DimOrganization
+2023-07-31 09:13:22,746 - INFO - Line 108 - Data written to file.
+2023-07-31 09:13:22,746 - INFO - Line 108 - Data written to file.
+2023-07-31 09:13:22,886 - INFO - Line 78 - Data read from JDBC source for dbo.DimProductCategory
+2023-07-31 09:13:22,886 - INFO - Line 78 - Data read from JDBC source for dbo.DimProductCategory
+2023-07-31 09:13:31,324 - INFO - Line 108 - Data written to file.
+2023-07-31 09:13:31,324 - INFO - Line 108 - Data written to file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 09:21:23,779 - INFO - Line 33 - Spark session started.
+2023-07-31 09:21:27,412 - ERROR - Line 84 - Error while reading data: An error occurred while calling o33.load.
+: com.microsoft.sqlserver.jdbc.SQLServerException: Invalid object name 'dbo.DimSalesReson'.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:265)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1695)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:620)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:539)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7685)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:4048)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:272)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:246)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeQuery(SQLServerPreparedStatement.java:457)
+	at org.apache.spark.sql.execution.datasources.jdbc.JDBCRDD$.getQueryOutputSchema(JDBCRDD.scala:68)
+	at org.apache.spark.sql.execution.datasources.jdbc.JDBCRDD$.resolveTable(JDBCRDD.scala:58)
+	at org.apache.spark.sql.execution.datasources.jdbc.JDBCRelation$.getSchema(JDBCRelation.scala:241)
+	at org.apache.spark.sql.execution.datasources.jdbc.JdbcRelationProvider.createRelation(JdbcRelationProvider.scala:37)
+	at org.apache.spark.sql.execution.datasources.DataSource.resolveRelation(DataSource.scala:346)
+	at org.apache.spark.sql.DataFrameReader.loadV1Source(DataFrameReader.scala:229)
+	at org.apache.spark.sql.DataFrameReader.$anonfun$load$2(DataFrameReader.scala:211)
+	at scala.Option.getOrElse(Option.scala:189)
+	at org.apache.spark.sql.DataFrameReader.load(DataFrameReader.scala:211)
+	at org.apache.spark.sql.DataFrameReader.load(DataFrameReader.scala:172)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2023-07-31 09:21:27,412 - ERROR - Line 84 - Error while reading data: An error occurred while calling o33.load.
+: com.microsoft.sqlserver.jdbc.SQLServerException: Invalid object name 'dbo.DimSalesReson'.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:265)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1695)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:620)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:539)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7685)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:4048)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:272)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:246)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeQuery(SQLServerPreparedStatement.java:457)
+	at org.apache.spark.sql.execution.datasources.jdbc.JDBCRDD$.getQueryOutputSchema(JDBCRDD.scala:68)
+	at org.apache.spark.sql.execution.datasources.jdbc.JDBCRDD$.resolveTable(JDBCRDD.scala:58)
+	at org.apache.spark.sql.execution.datasources.jdbc.JDBCRelation$.getSchema(JDBCRelation.scala:241)
+	at org.apache.spark.sql.execution.datasources.jdbc.JdbcRelationProvider.createRelation(JdbcRelationProvider.scala:37)
+	at org.apache.spark.sql.execution.datasources.DataSource.resolveRelation(DataSource.scala:346)
+	at org.apache.spark.sql.DataFrameReader.loadV1Source(DataFrameReader.scala:229)
+	at org.apache.spark.sql.DataFrameReader.$anonfun$load$2(DataFrameReader.scala:211)
+	at scala.Option.getOrElse(Option.scala:189)
+	at org.apache.spark.sql.DataFrameReader.load(DataFrameReader.scala:211)
+	at org.apache.spark.sql.DataFrameReader.load(DataFrameReader.scala:172)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 09:22:45,427 - INFO - Line 33 - Spark session started.
+2023-07-31 09:22:52,309 - INFO - Line 77 - Data read from JDBC source for dbo.DimSalesReason
+2023-07-31 09:22:52,309 - INFO - Line 77 - Data read from JDBC source for dbo.DimSalesReason
+2023-07-31 09:22:57,915 - INFO - Line 107 - Data written to file.
+2023-07-31 09:22:57,915 - INFO - Line 107 - Data written to file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 09:24:42,531 - INFO - Line 33 - Spark session started.
+2023-07-31 09:24:48,478 - INFO - Line 77 - Data read from JDBC source for dbo.DimGeography
+2023-07-31 09:24:48,478 - INFO - Line 77 - Data read from JDBC source for dbo.DimGeography
+2023-07-31 09:25:03,450 - ERROR - Line 109 - Error while writing data: 
+  An exception was thrown from the Python worker. Please see the stack trace below.
+Traceback (most recent call last):
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 814, in main
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 650, in read_udfs
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 375, in read_single_udf
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 87, in read_command
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 174, in _read_with_length
+    return self.loads(obj)
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 472, in loads
+    return cloudpickle.loads(obj, encoding=encoding)
+ModuleNotFoundError: No module named 'faker'
+
+2023-07-31 09:25:03,450 - ERROR - Line 109 - Error while writing data: 
+  An exception was thrown from the Python worker. Please see the stack trace below.
+Traceback (most recent call last):
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 814, in main
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 650, in read_udfs
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 375, in read_single_udf
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 87, in read_command
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 174, in _read_with_length
+    return self.loads(obj)
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 472, in loads
+    return cloudpickle.loads(obj, encoding=encoding)
+ModuleNotFoundError: No module named 'faker'
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 09:27:02,275 - INFO - Line 33 - Spark session started.
+2023-07-31 09:27:07,992 - INFO - Line 77 - Data read from JDBC source for dbo.DimGeography
+2023-07-31 09:27:07,992 - INFO - Line 77 - Data read from JDBC source for dbo.DimGeography
+2023-07-31 09:27:22,860 - ERROR - Line 109 - Error while writing data: 
+  An exception was thrown from the Python worker. Please see the stack trace below.
+Traceback (most recent call last):
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 814, in main
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 650, in read_udfs
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 375, in read_single_udf
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 87, in read_command
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 174, in _read_with_length
+    return self.loads(obj)
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 472, in loads
+    return cloudpickle.loads(obj, encoding=encoding)
+ModuleNotFoundError: No module named 'faker'
+
+2023-07-31 09:27:22,860 - ERROR - Line 109 - Error while writing data: 
+  An exception was thrown from the Python worker. Please see the stack trace below.
+Traceback (most recent call last):
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 814, in main
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 650, in read_udfs
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 375, in read_single_udf
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 87, in read_command
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 174, in _read_with_length
+    return self.loads(obj)
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 472, in loads
+    return cloudpickle.loads(obj, encoding=encoding)
+ModuleNotFoundError: No module named 'faker'
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 09:27:59,446 - INFO - Line 33 - Spark session started.
+2023-07-31 09:28:05,370 - INFO - Line 77 - Data read from JDBC source for dbo.DimGeography
+2023-07-31 09:28:05,370 - INFO - Line 77 - Data read from JDBC source for dbo.DimGeography
+2023-07-31 09:28:20,329 - ERROR - Line 109 - Error while writing data: 
+  An exception was thrown from the Python worker. Please see the stack trace below.
+Traceback (most recent call last):
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 814, in main
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 650, in read_udfs
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 375, in read_single_udf
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 87, in read_command
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 174, in _read_with_length
+    return self.loads(obj)
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 472, in loads
+    return cloudpickle.loads(obj, encoding=encoding)
+ModuleNotFoundError: No module named 'faker'
+
+2023-07-31 09:28:20,329 - ERROR - Line 109 - Error while writing data: 
+  An exception was thrown from the Python worker. Please see the stack trace below.
+Traceback (most recent call last):
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 814, in main
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 650, in read_udfs
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 375, in read_single_udf
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 87, in read_command
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 174, in _read_with_length
+    return self.loads(obj)
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 472, in loads
+    return cloudpickle.loads(obj, encoding=encoding)
+ModuleNotFoundError: No module named 'faker'
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 09:28:52,575 - INFO - Line 33 - Spark session started.
+2023-07-31 09:29:03,831 - INFO - Line 77 - Data read from JDBC source for dbo.DimDepartmentGroup
+2023-07-31 09:29:03,831 - INFO - Line 77 - Data read from JDBC source for dbo.DimDepartmentGroup
+2023-07-31 09:29:11,545 - INFO - Line 107 - Data written to file.
+2023-07-31 09:29:11,545 - INFO - Line 107 - Data written to file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 09:55:44,518 - INFO - Line 33 - Spark session started.
+2023-07-31 09:55:51,125 - INFO - Line 77 - Data read from JDBC source for dbo.DimEmployee
+2023-07-31 09:55:51,125 - INFO - Line 77 - Data read from JDBC source for dbo.DimEmployee
+2023-07-31 09:55:51,894 - ERROR - Line 84 - Error while reading data: An error occurred while calling o38.load.
+: org.apache.spark.SparkClassNotFoundException: [DATA_SOURCE_NOT_FOUND] Failed to find the data source: parqut. Please find packages at `https://spark.apache.org/third-party-projects.html`.
+	at org.apache.spark.sql.errors.QueryExecutionErrors$.dataSourceNotFoundError(QueryExecutionErrors.scala:738)
+	at org.apache.spark.sql.execution.datasources.DataSource$.lookupDataSource(DataSource.scala:647)
+	at org.apache.spark.sql.execution.datasources.DataSource$.lookupDataSourceV2(DataSource.scala:697)
+	at org.apache.spark.sql.DataFrameReader.load(DataFrameReader.scala:208)
+	at org.apache.spark.sql.DataFrameReader.load(DataFrameReader.scala:186)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.ClassNotFoundException: parqut.DefaultSource
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:476)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at org.apache.spark.sql.execution.datasources.DataSource$.$anonfun$lookupDataSource$5(DataSource.scala:633)
+	at scala.util.Try$.apply(Try.scala:213)
+	at org.apache.spark.sql.execution.datasources.DataSource$.$anonfun$lookupDataSource$4(DataSource.scala:633)
+	at scala.util.Failure.orElse(Try.scala:224)
+	at org.apache.spark.sql.execution.datasources.DataSource$.lookupDataSource(DataSource.scala:633)
+	... 15 more
+
+2023-07-31 09:55:51,894 - ERROR - Line 84 - Error while reading data: An error occurred while calling o38.load.
+: org.apache.spark.SparkClassNotFoundException: [DATA_SOURCE_NOT_FOUND] Failed to find the data source: parqut. Please find packages at `https://spark.apache.org/third-party-projects.html`.
+	at org.apache.spark.sql.errors.QueryExecutionErrors$.dataSourceNotFoundError(QueryExecutionErrors.scala:738)
+	at org.apache.spark.sql.execution.datasources.DataSource$.lookupDataSource(DataSource.scala:647)
+	at org.apache.spark.sql.execution.datasources.DataSource$.lookupDataSourceV2(DataSource.scala:697)
+	at org.apache.spark.sql.DataFrameReader.load(DataFrameReader.scala:208)
+	at org.apache.spark.sql.DataFrameReader.load(DataFrameReader.scala:186)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.ClassNotFoundException: parqut.DefaultSource
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:476)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at org.apache.spark.sql.execution.datasources.DataSource$.$anonfun$lookupDataSource$5(DataSource.scala:633)
+	at scala.util.Try$.apply(Try.scala:213)
+	at org.apache.spark.sql.execution.datasources.DataSource$.$anonfun$lookupDataSource$4(DataSource.scala:633)
+	at scala.util.Failure.orElse(Try.scala:224)
+	at org.apache.spark.sql.execution.datasources.DataSource$.lookupDataSource(DataSource.scala:633)
+	... 15 more
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 09:58:32,262 - INFO - Line 33 - Spark session started.
+2023-07-31 09:58:39,311 - INFO - Line 77 - Data read from JDBC source for dbo.DimEmployee
+2023-07-31 09:58:39,311 - INFO - Line 77 - Data read from JDBC source for dbo.DimEmployee
+2023-07-31 09:58:42,092 - INFO - Line 81 - Data read from file.
+2023-07-31 09:58:42,092 - INFO - Line 81 - Data read from file.
+2023-07-31 09:58:42,368 - INFO - Line 81 - Data read from file.
+2023-07-31 09:58:42,368 - INFO - Line 81 - Data read from file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 09:59:01,009 - INFO - Line 33 - Spark session started.
+2023-07-31 09:59:10,402 - INFO - Line 77 - Data read from JDBC source for dbo.DimEmployee
+2023-07-31 09:59:10,402 - INFO - Line 77 - Data read from JDBC source for dbo.DimEmployee
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 10:01:13,866 - INFO - Line 33 - Spark session started.
+2023-07-31 10:01:20,661 - INFO - Line 77 - Data read from JDBC source for dbo.DimEmployee
+2023-07-31 10:01:20,661 - INFO - Line 77 - Data read from JDBC source for dbo.DimEmployee
+2023-07-31 10:01:23,321 - INFO - Line 81 - Data read from file.
+2023-07-31 10:01:23,321 - INFO - Line 81 - Data read from file.
+2023-07-31 10:01:23,605 - INFO - Line 81 - Data read from file.
+2023-07-31 10:01:23,605 - INFO - Line 81 - Data read from file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 10:02:03,214 - INFO - Line 33 - Spark session started.
+2023-07-31 10:02:09,267 - INFO - Line 77 - Data read from JDBC source for dbo.DimEmployee
+2023-07-31 10:02:09,267 - INFO - Line 77 - Data read from JDBC source for dbo.DimEmployee
+2023-07-31 10:02:11,842 - INFO - Line 81 - Data read from file.
+2023-07-31 10:02:11,842 - INFO - Line 81 - Data read from file.
+2023-07-31 10:02:12,057 - INFO - Line 81 - Data read from file.
+2023-07-31 10:02:12,057 - INFO - Line 81 - Data read from file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 10:02:48,055 - INFO - Line 33 - Spark session started.
+2023-07-31 10:02:55,274 - INFO - Line 77 - Data read from JDBC source for dbo.DimEmployee
+2023-07-31 10:02:55,274 - INFO - Line 77 - Data read from JDBC source for dbo.DimEmployee
+2023-07-31 10:02:58,102 - INFO - Line 81 - Data read from file.
+2023-07-31 10:02:58,102 - INFO - Line 81 - Data read from file.
+2023-07-31 10:02:58,355 - INFO - Line 81 - Data read from file.
+2023-07-31 10:02:58,355 - INFO - Line 81 - Data read from file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 10:06:24,150 - INFO - Line 33 - Spark session started.
+2023-07-31 10:06:29,770 - INFO - Line 77 - Data read from JDBC source for dbo.DimEmployee
+2023-07-31 10:06:29,770 - INFO - Line 77 - Data read from JDBC source for dbo.DimEmployee
+2023-07-31 10:06:32,296 - INFO - Line 81 - Data read from file.
+2023-07-31 10:06:32,296 - INFO - Line 81 - Data read from file.
+2023-07-31 10:06:32,493 - INFO - Line 81 - Data read from file.
+2023-07-31 10:06:32,493 - INFO - Line 81 - Data read from file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 10:07:31,392 - INFO - Line 33 - Spark session started.
+2023-07-31 10:07:37,702 - INFO - Line 77 - Data read from JDBC source for dbo.DimEmployee
+2023-07-31 10:07:37,702 - INFO - Line 77 - Data read from JDBC source for dbo.DimEmployee
+2023-07-31 10:07:40,316 - INFO - Line 81 - Data read from file.
+2023-07-31 10:07:40,316 - INFO - Line 81 - Data read from file.
+2023-07-31 10:07:40,529 - INFO - Line 81 - Data read from file.
+2023-07-31 10:07:40,529 - INFO - Line 81 - Data read from file.
+2023-07-31 10:07:51,264 - ERROR - Line 109 - Error while writing data: 
+  An exception was thrown from the Python worker. Please see the stack trace below.
+Traceback (most recent call last):
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 814, in main
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 650, in read_udfs
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 375, in read_single_udf
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 87, in read_command
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 174, in _read_with_length
+    return self.loads(obj)
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 472, in loads
+    return cloudpickle.loads(obj, encoding=encoding)
+ModuleNotFoundError: No module named 'faker'
+
+2023-07-31 10:07:51,264 - ERROR - Line 109 - Error while writing data: 
+  An exception was thrown from the Python worker. Please see the stack trace below.
+Traceback (most recent call last):
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 814, in main
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 650, in read_udfs
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 375, in read_single_udf
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 87, in read_command
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 174, in _read_with_length
+    return self.loads(obj)
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 472, in loads
+    return cloudpickle.loads(obj, encoding=encoding)
+ModuleNotFoundError: No module named 'faker'
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 10:10:37,171 - INFO - Line 33 - Spark session started.
+2023-07-31 10:10:44,466 - INFO - Line 77 - Data read from JDBC source for dbo.DimEmployee
+2023-07-31 10:10:44,466 - INFO - Line 77 - Data read from JDBC source for dbo.DimEmployee
+2023-07-31 10:10:47,020 - INFO - Line 81 - Data read from file.
+2023-07-31 10:10:47,020 - INFO - Line 81 - Data read from file.
+2023-07-31 10:10:47,235 - INFO - Line 81 - Data read from file.
+2023-07-31 10:10:47,235 - INFO - Line 81 - Data read from file.
+2023-07-31 10:10:57,765 - ERROR - Line 109 - Error while writing data: 
+  An exception was thrown from the Python worker. Please see the stack trace below.
+Traceback (most recent call last):
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 814, in main
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 650, in read_udfs
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 375, in read_single_udf
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 87, in read_command
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 174, in _read_with_length
+    return self.loads(obj)
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 472, in loads
+    return cloudpickle.loads(obj, encoding=encoding)
+ModuleNotFoundError: No module named 'faker'
+
+2023-07-31 10:10:57,765 - ERROR - Line 109 - Error while writing data: 
+  An exception was thrown from the Python worker. Please see the stack trace below.
+Traceback (most recent call last):
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 814, in main
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 650, in read_udfs
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 375, in read_single_udf
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 87, in read_command
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 174, in _read_with_length
+    return self.loads(obj)
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 472, in loads
+    return cloudpickle.loads(obj, encoding=encoding)
+ModuleNotFoundError: No module named 'faker'
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 10:20:29,923 - INFO - Line 33 - Spark session started.
+2023-07-31 10:20:36,311 - INFO - Line 77 - Data read from JDBC source for dbo.DimEmployee
+2023-07-31 10:20:36,311 - INFO - Line 77 - Data read from JDBC source for dbo.DimEmployee
+2023-07-31 10:20:38,908 - INFO - Line 81 - Data read from file.
+2023-07-31 10:20:38,908 - INFO - Line 81 - Data read from file.
+2023-07-31 10:20:39,198 - INFO - Line 81 - Data read from file.
+2023-07-31 10:20:39,198 - INFO - Line 81 - Data read from file.
+2023-07-31 10:20:51,827 - ERROR - Line 109 - Error while writing data: 
+  An exception was thrown from the Python worker. Please see the stack trace below.
+Traceback (most recent call last):
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 814, in main
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 650, in read_udfs
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 375, in read_single_udf
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 87, in read_command
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 174, in _read_with_length
+    return self.loads(obj)
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 472, in loads
+    return cloudpickle.loads(obj, encoding=encoding)
+ModuleNotFoundError: No module named 'faker'
+
+2023-07-31 10:20:51,827 - ERROR - Line 109 - Error while writing data: 
+  An exception was thrown from the Python worker. Please see the stack trace below.
+Traceback (most recent call last):
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 814, in main
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 650, in read_udfs
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 375, in read_single_udf
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 87, in read_command
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 174, in _read_with_length
+    return self.loads(obj)
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 472, in loads
+    return cloudpickle.loads(obj, encoding=encoding)
+ModuleNotFoundError: No module named 'faker'
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 10:29:53,015 - INFO - Line 33 - Spark session started.
+2023-07-31 10:30:00,744 - INFO - Line 77 - Data read from JDBC source for dbo.DimCustomer
+2023-07-31 10:30:02,133 - ERROR - Line 84 - Error while reading data: [PATH_NOT_FOUND] Path does not exist: file:/C:/Users/pawan/PycharmProjects/PyJDBCSparkLoader1/ResultDataset/DimGeography/export (1).csv.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 11:33:07,154 - ERROR - Line 35 - Java gateway process exited before sending its port number
+2023-07-31 11:33:07,154 - ERROR - Line 88 - Error while reading data: Spark session is not initialized. Please connect first.
+2023-07-31 11:33:07,154 - ERROR - Line 88 - Error while reading data: Spark session is not initialized. Please connect first.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 11:34:56,119 - INFO - Line 37 - Spark session started.
+2023-07-31 11:35:03,197 - INFO - Line 81 - Data read from JDBC source for dbo.DimGeography
+2023-07-31 11:35:03,197 - INFO - Line 81 - Data read from JDBC source for dbo.DimGeography
+2023-07-31 11:35:19,696 - ERROR - Line 113 - Error while writing data: 
+  An exception was thrown from the Python worker. Please see the stack trace below.
+Traceback (most recent call last):
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 814, in main
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 650, in read_udfs
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 375, in read_single_udf
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 87, in read_command
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 174, in _read_with_length
+    return self.loads(obj)
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 472, in loads
+    return cloudpickle.loads(obj, encoding=encoding)
+ModuleNotFoundError: No module named 'faker'
+
+2023-07-31 11:35:19,696 - ERROR - Line 113 - Error while writing data: 
+  An exception was thrown from the Python worker. Please see the stack trace below.
+Traceback (most recent call last):
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 814, in main
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 650, in read_udfs
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 375, in read_single_udf
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 87, in read_command
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 174, in _read_with_length
+    return self.loads(obj)
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 472, in loads
+    return cloudpickle.loads(obj, encoding=encoding)
+ModuleNotFoundError: No module named 'faker'
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 11:37:58,151 - INFO - Line 37 - Spark session started.
+2023-07-31 11:38:05,201 - INFO - Line 81 - Data read from JDBC source for dbo.DimGeography
+2023-07-31 11:38:05,201 - INFO - Line 81 - Data read from JDBC source for dbo.DimGeography
+2023-07-31 11:38:21,037 - ERROR - Line 113 - Error while writing data: 
+  An exception was thrown from the Python worker. Please see the stack trace below.
+Traceback (most recent call last):
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 814, in main
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 650, in read_udfs
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 375, in read_single_udf
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 87, in read_command
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 174, in _read_with_length
+    return self.loads(obj)
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 472, in loads
+    return cloudpickle.loads(obj, encoding=encoding)
+ModuleNotFoundError: No module named 'faker'
+
+2023-07-31 11:38:21,037 - ERROR - Line 113 - Error while writing data: 
+  An exception was thrown from the Python worker. Please see the stack trace below.
+Traceback (most recent call last):
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 814, in main
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 650, in read_udfs
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 375, in read_single_udf
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\worker.py", line 87, in read_command
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 174, in _read_with_length
+    return self.loads(obj)
+  File "C:\apps\spark-3.4.1-bin-hadoop3\python\lib\pyspark.zip\pyspark\serializers.py", line 472, in loads
+    return cloudpickle.loads(obj, encoding=encoding)
+ModuleNotFoundError: No module named 'faker'
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 11:41:59,571 - INFO - Line 37 - Spark session started.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 12:09:43,962 - INFO - Line 37 - Spark session started.
+2023-07-31 12:09:50,452 - INFO - Line 81 - Data read from JDBC source for dbo.DimGeography
+2023-07-31 12:09:50,452 - INFO - Line 81 - Data read from JDBC source for dbo.DimGeography
+2023-07-31 12:10:05,903 - INFO - Line 111 - Data written to file.
+2023-07-31 12:10:05,903 - INFO - Line 111 - Data written to file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 12:11:00,169 - INFO - Line 37 - Spark session started.
+2023-07-31 12:11:07,433 - INFO - Line 81 - Data read from JDBC source for dbo.DimGeography
+2023-07-31 12:11:07,433 - INFO - Line 81 - Data read from JDBC source for dbo.DimGeography
+2023-07-31 12:11:23,092 - INFO - Line 111 - Data written to file.
+2023-07-31 12:11:23,092 - INFO - Line 111 - Data written to file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 14:57:26,123 - INFO - Line 37 - Spark session started.
+2023-07-31 14:57:33,509 - INFO - Line 81 - Data read from JDBC source for dbo.DimAccount
+2023-07-31 14:57:33,509 - INFO - Line 81 - Data read from JDBC source for dbo.DimAccount
+2023-07-31 14:57:39,226 - INFO - Line 111 - Data written to file.
+2023-07-31 14:57:39,226 - INFO - Line 111 - Data written to file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 14:58:23,691 - INFO - Line 37 - Spark session started.
+2023-07-31 14:58:30,263 - INFO - Line 81 - Data read from JDBC source for dbo.DimAccount
+2023-07-31 14:58:30,263 - INFO - Line 81 - Data read from JDBC source for dbo.DimAccount
+2023-07-31 14:58:35,865 - INFO - Line 111 - Data written to file.
+2023-07-31 14:58:35,865 - INFO - Line 111 - Data written to file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 15:00:02,162 - INFO - Line 37 - Spark session started.
+2023-07-31 15:00:09,659 - INFO - Line 81 - Data read from JDBC source for dbo.DimAccount
+2023-07-31 15:00:09,659 - INFO - Line 81 - Data read from JDBC source for dbo.DimAccount
+2023-07-31 15:00:15,312 - INFO - Line 111 - Data written to file.
+2023-07-31 15:00:15,312 - INFO - Line 111 - Data written to file.
+2023-07-31 15:00:15,518 - INFO - Line 81 - Data read from JDBC source for dbo.DimProduct
+2023-07-31 15:00:15,518 - INFO - Line 81 - Data read from JDBC source for dbo.DimProduct
+2023-07-31 15:00:18,197 - INFO - Line 111 - Data written to file.
+2023-07-31 15:00:18,197 - INFO - Line 111 - Data written to file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 15:16:50,397 - INFO - Line 37 - Spark session started.
+2023-07-31 15:16:57,407 - INFO - Line 81 - Data read from JDBC source for DimSalesTerritory
+2023-07-31 15:16:57,407 - INFO - Line 81 - Data read from JDBC source for DimSalesTerritory
+2023-07-31 15:17:03,191 - INFO - Line 111 - Data written to file.
+2023-07-31 15:17:03,191 - INFO - Line 111 - Data written to file.
+2023-07-31 15:17:03,192 - INFO - Line 89 - Generating bridge data for subcategories and products.
+2023-07-31 15:17:03,192 - INFO - Line 89 - Generating bridge data for subcategories and products.
+2023-07-31 15:17:03,327 - INFO - Line 109 - Bridge data generated successfully.
+2023-07-31 15:17:03,327 - INFO - Line 109 - Bridge data generated successfully.
+2023-07-31 15:17:08,683 - INFO - Line 111 - Data written to file.
+2023-07-31 15:17:08,683 - INFO - Line 111 - Data written to file.
+2023-07-31 15:17:08,691 - INFO - Line 33 - Starting product_sub_cat function.
+2023-07-31 15:17:08,691 - INFO - Line 33 - Starting product_sub_cat function.
+2023-07-31 15:17:08,777 - INFO - Line 81 - Data read from JDBC source for dbo.DimProductSubcategory
+2023-07-31 15:17:08,777 - INFO - Line 81 - Data read from JDBC source for dbo.DimProductSubcategory
+2023-07-31 15:17:10,858 - INFO - Line 73 - product_sub_cat function completed successfully.
+2023-07-31 15:17:10,858 - INFO - Line 73 - product_sub_cat function completed successfully.
+2023-07-31 15:17:21,744 - INFO - Line 111 - Data written to file.
+2023-07-31 15:17:21,744 - INFO - Line 111 - Data written to file.
+2023-07-31 15:17:21,766 - INFO - Line 127 - Generating date data and combining it with the existing data.
+2023-07-31 15:17:21,766 - INFO - Line 127 - Generating date data and combining it with the existing data.
+2023-07-31 15:17:21,844 - INFO - Line 81 - Data read from JDBC source for dbo.DimDate
+2023-07-31 15:17:21,844 - INFO - Line 81 - Data read from JDBC source for dbo.DimDate
+2023-07-31 15:17:23,846 - INFO - Line 285 - Date data generated successfully and combined with the existing data.
+2023-07-31 15:17:23,846 - INFO - Line 285 - Date data generated successfully and combined with the existing data.
+2023-07-31 15:17:29,575 - INFO - Line 111 - Data written to file.
+2023-07-31 15:17:29,575 - INFO - Line 111 - Data written to file.
+2023-07-31 15:17:29,585 - INFO - Line 127 - Generating date data and combining it with the existing data.
+2023-07-31 15:17:29,585 - INFO - Line 127 - Generating date data and combining it with the existing data.
+2023-07-31 15:17:29,651 - INFO - Line 81 - Data read from JDBC source for dbo.DimDate
+2023-07-31 15:17:29,651 - INFO - Line 81 - Data read from JDBC source for dbo.DimDate
+2023-07-31 15:17:31,087 - INFO - Line 285 - Date data generated successfully and combined with the existing data.
+2023-07-31 15:17:31,087 - INFO - Line 285 - Date data generated successfully and combined with the existing data.
+2023-07-31 15:17:36,132 - INFO - Line 111 - Data written to file.
+2023-07-31 15:17:36,132 - INFO - Line 111 - Data written to file.
+2023-07-31 15:17:36,174 - ERROR - Line 559 - Error Occurred in dim_geography : 'DataGenerater' object has no attribute 'logging'.
+2023-07-31 15:17:36,174 - ERROR - Line 559 - Error Occurred in dim_geography : 'DataGenerater' object has no attribute 'logging'.
+2023-07-31 15:17:36,200 - ERROR - Line 113 - Error while writing data: 'NoneType' object has no attribute 'write'
+2023-07-31 15:17:36,200 - ERROR - Line 113 - Error while writing data: 'NoneType' object has no attribute 'write'
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 15:22:32,711 - INFO - Line 37 - Spark session started.
+2023-07-31 15:22:39,363 - INFO - Line 81 - Data read from JDBC source for DimSalesTerritory
+2023-07-31 15:22:39,363 - INFO - Line 81 - Data read from JDBC source for DimSalesTerritory
+2023-07-31 15:22:44,409 - INFO - Line 111 - Data written to file.
+2023-07-31 15:22:44,409 - INFO - Line 111 - Data written to file.
+2023-07-31 15:22:44,410 - INFO - Line 89 - Generating bridge data for subcategories and products.
+2023-07-31 15:22:44,410 - INFO - Line 89 - Generating bridge data for subcategories and products.
+2023-07-31 15:22:44,565 - INFO - Line 109 - Bridge data generated successfully.
+2023-07-31 15:22:44,565 - INFO - Line 109 - Bridge data generated successfully.
+2023-07-31 15:22:49,972 - INFO - Line 111 - Data written to file.
+2023-07-31 15:22:49,972 - INFO - Line 111 - Data written to file.
+2023-07-31 15:22:49,990 - INFO - Line 33 - Starting product_sub_cat function.
+2023-07-31 15:22:49,990 - INFO - Line 33 - Starting product_sub_cat function.
+2023-07-31 15:22:50,110 - INFO - Line 81 - Data read from JDBC source for dbo.DimProductSubcategory
+2023-07-31 15:22:50,110 - INFO - Line 81 - Data read from JDBC source for dbo.DimProductSubcategory
+2023-07-31 15:22:55,126 - INFO - Line 73 - product_sub_cat function completed successfully.
+2023-07-31 15:22:55,126 - INFO - Line 73 - product_sub_cat function completed successfully.
+2023-07-31 15:23:06,113 - INFO - Line 111 - Data written to file.
+2023-07-31 15:23:06,113 - INFO - Line 111 - Data written to file.
+2023-07-31 15:23:06,136 - INFO - Line 127 - Generating date data and combining it with the existing data.
+2023-07-31 15:23:06,136 - INFO - Line 127 - Generating date data and combining it with the existing data.
+2023-07-31 15:23:06,295 - INFO - Line 81 - Data read from JDBC source for dbo.DimDate
+2023-07-31 15:23:06,295 - INFO - Line 81 - Data read from JDBC source for dbo.DimDate
+2023-07-31 15:23:08,470 - INFO - Line 285 - Date data generated successfully and combined with the existing data.
+2023-07-31 15:23:08,470 - INFO - Line 285 - Date data generated successfully and combined with the existing data.
+2023-07-31 15:23:14,295 - INFO - Line 111 - Data written to file.
+2023-07-31 15:23:14,295 - INFO - Line 111 - Data written to file.
+2023-07-31 15:23:14,315 - INFO - Line 127 - Generating date data and combining it with the existing data.
+2023-07-31 15:23:14,315 - INFO - Line 127 - Generating date data and combining it with the existing data.
+2023-07-31 15:23:14,523 - INFO - Line 81 - Data read from JDBC source for dbo.DimDate
+2023-07-31 15:23:14,523 - INFO - Line 81 - Data read from JDBC source for dbo.DimDate
+2023-07-31 15:23:16,046 - INFO - Line 285 - Date data generated successfully and combined with the existing data.
+2023-07-31 15:23:16,046 - INFO - Line 285 - Date data generated successfully and combined with the existing data.
+2023-07-31 15:23:21,318 - INFO - Line 111 - Data written to file.
+2023-07-31 15:23:21,318 - INFO - Line 111 - Data written to file.
+2023-07-31 15:23:21,363 - INFO - Line 511 - Generating Geography data and combining it with the existing data.
+2023-07-31 15:23:21,363 - INFO - Line 511 - Generating Geography data and combining it with the existing data.
+2023-07-31 15:23:21,506 - INFO - Line 81 - Data read from JDBC source for dbo.DimGeography
+2023-07-31 15:23:21,506 - INFO - Line 81 - Data read from JDBC source for dbo.DimGeography
+2023-07-31 15:23:22,529 - INFO - Line 556 - Geography data generated Successfully and combined with the existing data.
+2023-07-31 15:23:22,529 - INFO - Line 556 - Geography data generated Successfully and combined with the existing data.
+2023-07-31 15:23:30,212 - INFO - Line 111 - Data written to file.
+2023-07-31 15:23:30,212 - INFO - Line 111 - Data written to file.
+2023-07-31 15:23:30,489 - ERROR - Line 88 - Error while reading data: [PATH_NOT_FOUND] Path does not exist: file:/C:/Users/pawan/PycharmProjects/PyJDBCSparkLoader1/ResultDataset/DimGeography/export (1).csv.
+2023-07-31 15:23:30,489 - ERROR - Line 88 - Error while reading data: [PATH_NOT_FOUND] Path does not exist: file:/C:/Users/pawan/PycharmProjects/PyJDBCSparkLoader1/ResultDataset/DimGeography/export (1).csv.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 15:25:55,597 - INFO - Line 37 - Spark session started.
+2023-07-31 15:26:01,730 - INFO - Line 81 - Data read from JDBC source for DimSalesTerritory
+2023-07-31 15:26:06,659 - INFO - Line 111 - Data written to file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 16:54:10,842 - INFO - Line 36 - Spark session started.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-07-31 16:56:12,076 - INFO - Line 36 - Spark session started.
+2023-07-31 16:56:15,400 - ERROR - Line 87 - Error while reading data: [PATH_NOT_FOUND] Path does not exist: file:/C:/Users/pawan/PycharmProjects/PyJDBCSparkLoader1/ResultDataset/DimGeography/export (1).csv.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-01 00:20:50,354 - INFO - Line 36 - Spark session started.
+2023-08-01 00:20:55,861 - ERROR - Line 87 - Error while reading data: [PATH_NOT_FOUND] Path does not exist: file:/C:/Users/pawan/PycharmProjects/PyJDBCSparkLoader1/ResultDataset/DimGeography/export (1).csv.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-01 00:23:36,836 - INFO - Line 36 - Spark session started.
+2023-08-01 00:23:58,082 - INFO - Line 84 - Data read from file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-01 00:25:16,819 - INFO - Line 36 - Spark session started.
+2023-08-01 00:25:39,265 - INFO - Line 84 - Data read from file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-01 00:41:27,270 - INFO - Line 40 - Spark session started.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-01 00:45:44,217 - INFO - Line 36 - Spark session started.
+2023-08-01 00:46:03,660 - INFO - Line 84 - Data read from file.
+2023-08-01 00:46:03,660 - INFO - Line 84 - Data read from file.
+2023-08-01 00:46:03,660 - INFO - Line 542 - Generating customer data and combining it with the existing data.
+2023-08-01 00:46:03,660 - INFO - Line 542 - Generating customer data and combining it with the existing data.
+2023-08-01 00:46:05,165 - INFO - Line 80 - Data read from JDBC source for DimCustomer
+2023-08-01 00:46:05,165 - INFO - Line 80 - Data read from JDBC source for DimCustomer
+2023-08-01 00:46:11,204 - ERROR - Line 603 - Error occurred in dim_customer: [NOT_COLUMN] Argument `col` should be a Column, got str.
+2023-08-01 00:46:11,204 - ERROR - Line 603 - Error occurred in dim_customer: [NOT_COLUMN] Argument `col` should be a Column, got str.
+2023-08-01 00:46:11,218 - ERROR - Line 112 - Error while writing data: 'NoneType' object has no attribute 'write'
+2023-08-01 00:46:11,218 - ERROR - Line 112 - Error while writing data: 'NoneType' object has no attribute 'write'
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-01 08:25:50,238 - INFO - Line 36 - Spark session started.
+2023-08-01 08:26:09,371 - INFO - Line 84 - Data read from file.
+2023-08-01 08:26:09,371 - INFO - Line 84 - Data read from file.
+2023-08-01 08:26:09,421 - INFO - Line 542 - Generating customer data and combining it with the existing data.
+2023-08-01 08:26:09,421 - INFO - Line 542 - Generating customer data and combining it with the existing data.
+2023-08-01 08:26:11,325 - INFO - Line 80 - Data read from JDBC source for DimCustomer
+2023-08-01 08:26:11,325 - INFO - Line 80 - Data read from JDBC source for DimCustomer
+2023-08-01 08:26:14,791 - ERROR - Line 603 - Error occurred in dim_customer: [NOT_COLUMN] Argument `col` should be a Column, got str.
+2023-08-01 08:26:14,791 - ERROR - Line 603 - Error occurred in dim_customer: [NOT_COLUMN] Argument `col` should be a Column, got str.
+2023-08-01 08:26:14,791 - ERROR - Line 112 - Error while writing data: 'NoneType' object has no attribute 'write'
+2023-08-01 08:26:14,791 - ERROR - Line 112 - Error while writing data: 'NoneType' object has no attribute 'write'
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-01 08:27:54,234 - INFO - Line 36 - Spark session started.
+2023-08-01 08:28:13,745 - INFO - Line 84 - Data read from file.
+2023-08-01 08:28:13,745 - INFO - Line 84 - Data read from file.
+2023-08-01 08:28:13,745 - INFO - Line 542 - Generating customer data and combining it with the existing data.
+2023-08-01 08:28:13,745 - INFO - Line 542 - Generating customer data and combining it with the existing data.
+2023-08-01 08:28:15,443 - INFO - Line 80 - Data read from JDBC source for DimCustomer
+2023-08-01 08:28:15,443 - INFO - Line 80 - Data read from JDBC source for DimCustomer
+2023-08-01 08:28:25,141 - INFO - Line 600 - Customer data generated successfully and combined with the existing data.
+2023-08-01 08:28:25,141 - INFO - Line 600 - Customer data generated successfully and combined with the existing data.
+2023-08-01 08:29:08,455 - INFO - Line 110 - Data written to file.
+2023-08-01 08:29:08,455 - INFO - Line 110 - Data written to file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-01 09:01:35,278 - INFO - Line 36 - Spark session started.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-01 14:40:41,000 - INFO - Line 36 - Spark session started.
+2023-08-01 14:40:41,162 - INFO - Line 615 - Generating productcategory data and combining it with the existing data.
+2023-08-01 14:40:41,162 - INFO - Line 615 - Generating productcategory data and combining it with the existing data.
+2023-08-01 14:40:48,259 - INFO - Line 80 - Data read from JDBC source for DimProductCategory
+2023-08-01 14:40:48,259 - INFO - Line 80 - Data read from JDBC source for DimProductCategory
+2023-08-01 14:40:59,446 - INFO - Line 639 - Product category data generated successfully.
+2023-08-01 14:40:59,446 - INFO - Line 639 - Product category data generated successfully.
+2023-08-01 14:40:59,783 - ERROR - Line 112 - Error while writing data: Failed to find data source: avro. Avro is built-in but external data source module since Spark 2.4. Please deploy the application as per the deployment section of Apache Avro Data Source Guide.
+2023-08-01 14:40:59,783 - ERROR - Line 112 - Error while writing data: Failed to find data source: avro. Avro is built-in but external data source module since Spark 2.4. Please deploy the application as per the deployment section of Apache Avro Data Source Guide.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-02 11:03:17,245 - INFO - Line 615 - Generating productcategory data and combining it with the existing data.
+2023-08-02 11:03:23,953 - INFO - Line 80 - Data read from JDBC source for DimProductCategory
+2023-08-02 11:03:35,274 - INFO - Line 639 - Product category data generated successfully.
+2023-08-02 11:03:35,608 - ERROR - Line 112 - Error while writing data: Failed to find data source: avro. Avro is built-in but external data source module since Spark 2.4. Please deploy the application as per the deployment section of Apache Avro Data Source Guide.
+2023-08-03 09:08:16,030 - INFO - Line 77 - Data read from JDBC source for DimSalesTerritory
+2023-08-03 09:08:24,008 - INFO - Line 97 - Data written to file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-03 09:23:10,462 - INFO - Line 88 - Data read from JDBC source for DimSalesTerritory
+2023-08-03 09:23:20,527 - INFO - Line 122 - Data written to file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-03 09:23:57,173 - INFO - Line 88 - Data read from JDBC source for DimSalesTerritory
+2023-08-03 09:24:05,915 - INFO - Line 122 - Data written to file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-03 09:24:46,089 - INFO - Line 88 - Data read from JDBC source for DimSalesTerritory
+2023-08-03 09:24:55,358 - INFO - Line 122 - Data written to file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-04 14:12:33,520 - INFO - Line 28 - Entering start_spark method.
+2023-08-04 14:12:47,179 - INFO - Line 50 - Configured the Spark for the specified dependencies
+2023-08-04 14:12:47,179 - INFO - Line 30 - Spark Session Initialized.
+2023-08-04 14:12:54,914 - INFO - Line 104 - Data read from file.
+2023-08-04 14:12:54,914 - INFO - Line 33 - Starting product_sub_cat function.
+2023-08-04 14:12:55,981 - INFO - Line 100 - Data read from JDBC source for DimProductSubcategory
+2023-08-04 14:13:01,250 - ERROR - Line 77 - Error occurred in product_sub_cat: 'NoneType' object has no attribute 'withColumnRenamed'
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-04 14:16:12,138 - INFO - Line 28 - Entering start_spark method.
+2023-08-04 14:16:25,740 - INFO - Line 50 - Configured the Spark for the specified dependencies
+2023-08-04 14:16:25,740 - INFO - Line 30 - Spark Session Initialized.
+2023-08-04 14:16:33,901 - INFO - Line 104 - Data read from file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-04 14:18:54,744 - INFO - Line 28 - Entering start_spark method.
+2023-08-04 14:19:08,852 - INFO - Line 50 - Configured the Spark for the specified dependencies
+2023-08-04 14:19:08,852 - INFO - Line 30 - Spark Session Initialized.
+2023-08-04 14:19:17,913 - INFO - Line 104 - Data read from file.
+2023-08-04 14:19:21,385 - INFO - Line 33 - Starting product_sub_cat function.
+2023-08-04 14:19:22,318 - INFO - Line 100 - Data read from JDBC source for DimProductSubcategory
+2023-08-04 14:19:24,530 - INFO - Line 73 - product_sub_cat function completed successfully.
+2023-08-04 14:19:32,673 - INFO - Line 134 - Data written to file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-04 14:41:19,764 - INFO - Line 28 - Entering start_spark method.
+2023-08-04 14:41:33,638 - INFO - Line 50 - Configured the Spark for the specified dependencies
+2023-08-04 14:41:33,638 - INFO - Line 30 - Spark Session Initialized.
+2023-08-04 14:41:42,940 - INFO - Line 104 - Data read from file.
+2023-08-04 14:41:46,371 - INFO - Line 33 - Starting product_sub_cat function.
+2023-08-04 14:41:47,419 - INFO - Line 100 - Data read from JDBC source for DimProductSubcategory
+2023-08-04 14:41:49,906 - INFO - Line 73 - product_sub_cat function completed successfully.
+2023-08-04 14:41:59,299 - INFO - Line 134 - Data written to file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-04 14:42:24,436 - INFO - Line 28 - Entering start_spark method.
+2023-08-04 14:42:38,801 - INFO - Line 50 - Configured the Spark for the specified dependencies
+2023-08-04 14:42:38,802 - INFO - Line 30 - Spark Session Initialized.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-04 14:46:17,614 - INFO - Line 28 - Entering start_spark method.
+2023-08-04 14:46:33,387 - INFO - Line 50 - Configured the Spark for the specified dependencies
+2023-08-04 14:46:33,388 - INFO - Line 30 - Spark Session Initialized.
+2023-08-04 14:46:33,388 - INFO - Line 16 - Generating bridge data for subcategories and products.
+2023-08-04 14:46:39,165 - INFO - Line 36 - Bridge data generated successfully.
+2023-08-04 14:46:49,093 - INFO - Line 134 - Data written to file.
+------------------------------------------------------------------------------------------------------------------------------------------------------

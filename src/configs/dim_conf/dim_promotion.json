@@ -1,0 +1,18 @@
+{
+    "log_config":{
+        "file_path":"C:\\achyutas_ETL_project\\com_achyutas_ETL\\src\\app_logs\\dim_promotion.log",
+        "log_level":"INFO",
+        "log_formatter":"%(asctime)s - %(levelname)s - Line %(lineno)d - %(message)s"
+                 },
+
+    "spark_conf":
+                {
+        "app_name" :"ETL_dim_promotion_app",
+        "master" : "local[*]",
+        "spark_config" :
+                       {
+                    "spark.driver.extraClassPath":"C:\\achyutas_ETL_project\\com_achyutas_ETL\\src\\resources\\mssql-jdbc-12.2.0.jre11.jar"
+                       } 
+                },
+    "destination_path":"C:\\achyutas_ETL_project\\com_achyutas_ETL\\src\\result_dataset\\DimPromotion"
+}
