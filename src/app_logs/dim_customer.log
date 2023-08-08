@@ -842,3 +842,27 @@ It is possible the underlying files have been updated. You can explicitly invali
 2023-08-07 16:54:05,041 - INFO - Line 24 - Generating customer data and combining it with the existing data.
 2023-08-07 16:54:08,837 - INFO - Line 64 - Customer data generated successfully and combined with the existing data.
 ------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-08 08:11:03,127 - INFO - Line 28 - Entering start_spark method.
+2023-08-08 08:11:30,238 - INFO - Line 50 - Configured the Spark for the specified dependencies
+2023-08-08 08:11:30,238 - INFO - Line 30 - Spark Session Initialized.
+2023-08-08 08:11:40,248 - INFO - Line 100 - Data read from JDBC source for DimCustomer
+2023-08-08 08:11:47,825 - INFO - Line 104 - Data read from file.
+2023-08-08 08:11:47,826 - INFO - Line 24 - Generating customer data and combining it with the existing data.
+2023-08-08 08:11:53,576 - INFO - Line 64 - Customer data generated successfully and combined with the existing data.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-08 08:13:38,767 - INFO - Line 28 - Entering start_spark method.
+2023-08-08 08:14:05,347 - INFO - Line 50 - Configured the Spark for the specified dependencies
+2023-08-08 08:14:05,348 - INFO - Line 30 - Spark Session Initialized.
+2023-08-08 08:14:14,169 - INFO - Line 100 - Data read from JDBC source for DimCustomer
+2023-08-08 08:14:21,019 - INFO - Line 104 - Data read from file.
+2023-08-08 08:14:21,019 - INFO - Line 24 - Generating customer data and combining it with the existing data.
+2023-08-08 08:14:27,159 - INFO - Line 64 - Customer data generated successfully and combined with the existing data.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-08 08:16:11,958 - INFO - Line 28 - Entering start_spark method.
+2023-08-08 08:16:21,861 - INFO - Line 50 - Configured the Spark for the specified dependencies
+2023-08-08 08:16:21,862 - INFO - Line 30 - Spark Session Initialized.
+2023-08-08 08:16:29,854 - INFO - Line 100 - Data read from JDBC source for DimCustomer
+2023-08-08 08:16:36,813 - INFO - Line 104 - Data read from file.
+2023-08-08 08:16:36,813 - INFO - Line 24 - Generating customer data and combining it with the existing data.
+2023-08-08 08:16:42,278 - INFO - Line 64 - Customer data generated successfully and combined with the existing data.
+------------------------------------------------------------------------------------------------------------------------------------------------------
