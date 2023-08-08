@@ -30,7 +30,6 @@ if os.path.exists(path):
 else:
     jdbc_values = get_jdbc_config("DimCustomer")
     dim_customer_df=spark_class.extract(jdbc_params=jdbc_values)
-
 print(f"before transforming the customer data : {dim_customer_df.count()}")
 
 
