@@ -21,4 +21,8 @@ if __name__=="__main__":
     spark_class = SparkClass(config=conf_file["spark_conf"], logger_obj=logger)
     spark = spark_class.start_spark()
     bridge_df=bridge_sub_cat_product(logger,spark)
+
     spark_class.write_data(df=bridge_df,file_path=conf_file["destination_path"],file_format="parquet",mode="append")
+
+  
+
