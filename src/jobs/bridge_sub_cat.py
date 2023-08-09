@@ -7,7 +7,6 @@ from classes.logging_class import LoggingConfig
 import sys,os
 from resources.utils import openJson
 
-
 if __name__=="__main__":
     # Get the project directory
     project_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))

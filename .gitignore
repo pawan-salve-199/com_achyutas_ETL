@@ -1,1 +1,4 @@
 /README.txt
+/results/
+*.log
+src\app_logs
