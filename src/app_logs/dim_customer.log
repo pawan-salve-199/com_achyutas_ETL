@@ -490,3 +490,30 @@ It is possible the underlying files have been updated. You can explicitly invali
 2023-08-06 19:44:49,770 - INFO - Line 30 - Spark Session Initialized.
 2023-08-06 19:44:54,457 - ERROR - Line 107 - Error while reading data: [UNABLE_TO_INFER_SCHEMA] Unable to infer schema for Parquet. It must be specified manually.
 ------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-09 13:59:09,319 - INFO - Line 29 - Entering start_spark method.
+2023-08-09 13:59:23,363 - INFO - Line 51 - Configured the Spark for the specified dependencies
+2023-08-09 13:59:23,363 - INFO - Line 31 - Spark Session Initialized.
+2023-08-09 13:59:30,958 - INFO - Line 107 - Data read from JDBC source for DimCustomer
+2023-08-09 13:59:35,817 - INFO - Line 107 - Data read from JDBC source for DimGeography
+2023-08-09 13:59:35,817 - INFO - Line 31 - Generating customer data and combining it with the existing data.
+2023-08-09 13:59:39,784 - INFO - Line 73 - Customer data generated successfully and combined with the existing data.
+2023-08-09 14:00:10,863 - INFO - Line 145 - Data written to DimCustomer file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-09 14:26:44,564 - INFO - Line 29 - Entering start_spark method.
+2023-08-09 14:26:59,386 - INFO - Line 51 - Configured the Spark for the specified dependencies
+2023-08-09 14:26:59,386 - INFO - Line 31 - Spark Session Initialized.
+2023-08-09 14:27:06,073 - INFO - Line 107 - Data read from JDBC source for DimCustomer
+2023-08-09 14:27:10,596 - INFO - Line 107 - Data read from JDBC source for DimGeography
+2023-08-09 14:27:10,599 - INFO - Line 31 - Generating customer data and combining it with the existing data.
+2023-08-09 14:27:14,378 - INFO - Line 73 - Customer data generated successfully and combined with the existing data.
+2023-08-09 14:27:42,492 - INFO - Line 145 - Data written to DimCustomer file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-09 14:36:25,386 - INFO - Line 29 - Entering start_spark method.
+2023-08-09 14:36:39,874 - INFO - Line 51 - Configured the Spark for the specified dependencies
+2023-08-09 14:36:39,889 - INFO - Line 31 - Spark Session Initialized.
+2023-08-09 14:36:46,749 - INFO - Line 107 - Data read from JDBC source for DimCustomer
+2023-08-09 14:36:50,861 - INFO - Line 107 - Data read from JDBC source for DimGeography
+2023-08-09 14:36:50,861 - INFO - Line 31 - Generating customer data and combining it with the existing data.
+2023-08-09 14:36:54,598 - INFO - Line 73 - Customer data generated successfully and combined with the existing data.
+2023-08-09 14:37:22,340 - INFO - Line 145 - Data written to DimCustomer file.
+------------------------------------------------------------------------------------------------------------------------------------------------------

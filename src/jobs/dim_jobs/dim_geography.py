@@ -1,5 +1,5 @@
 import sys,os
-path = os.path.dirname(os.path.dirname(__file__))
+path = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 sys.path.insert(1,path)
 from classes.pyspark_class import SparkClass
 from classes.transform_dim.dim_geography import DimGeography
@@ -9,7 +9,7 @@ from configs.jdbc_conf.config import get_jdbc_config
 from resources.utils import *
 
 # Get the project directory
-project_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+project_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
 # Read configuration from JSON file
 conf_file = openJson(filepath=f"{project_dir}/src/configs/dim_conf/dim_geography.json")
@@ -39,4 +39,4 @@ df = dim_geography_obj.transform()
 destination_path = conf_file["destination_path"]
 
 # Write the transformed data to a parquet file
-spark_class.write_data(df, file_path=destination_path, file_format="parquet", mode="overwrite")
+spark_class.write_data(df, file_path=destination_path, file_format="parquet", mode="append")

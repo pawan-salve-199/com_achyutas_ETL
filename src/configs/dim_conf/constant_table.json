@@ -1,0 +1,25 @@
+{
+    "log_config":{
+        "file_path":"src\\app_logs\\constant_tables.log",
+        "log_level":"INFO",
+        "log_formatter":"%(asctime)s - %(levelname)s - Line %(lineno)d - %(message)s"
+                 },
+
+    "spark_conf":
+                {
+        "app_name" :"ETL_dim_currency_app",
+        "master" : "local[*]",
+        "spark_config" :
+                       {
+                    "spark.driver.extraClassPath":"src\\resources\\mssql-jdbc-12.2.0.jre11.jar"
+                       } 
+                },
+    "destination_paths":
+        {"dim_account_path":"src\\result_dataset\\DimAccount",
+         "dim_organization":"src\\result_dataset\\DimOrganization",
+         "dim_product":"src\\result_dataset\\DimProduct",
+         "dim_sales_reason":"src\\result_dataset\\DimSalesReason",
+         "dim_scenario":"src\\result_dataset\\DimScenario",
+        "dim_department_group":"src\\result_dataset\\DimDepartmentGroup"
+         }
+}

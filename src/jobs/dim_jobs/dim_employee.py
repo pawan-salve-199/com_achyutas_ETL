@@ -1,6 +1,7 @@
-import sys,os
-path = os.path.dirname(os.path.dirname(__file__))
+import sys
+path = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 sys.path.insert(1,path)
+
 from classes.pyspark_class import SparkClass
 from classes.transform_dim.dim_employee import DimEmployee
 from classes.logging_class import LoggingConfig
@@ -9,7 +10,7 @@ from configs.jdbc_conf.config import get_jdbc_config
 from resources.utils import *
 
 # Get the project directory
-project_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+project_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
 # Read configuration from JSON file
 conf_file = openJson(filepath=f"{project_dir}/src/configs/dim_conf/dim_employee.json")
@@ -32,7 +33,7 @@ else:
     emp_df=spark_class.extract(jdbc_params=jdbc_values)
 
 
-path=conf_file["destination_path"]["dim_date_path"]
+path=conf_file["anather_path"]["dim_date_path"]
 if os.path.exists(path):
     date_df=spark_class.extract(file_format="parquet",file_path=path,inferSchema=True)
 else:
@@ -41,7 +42,7 @@ else:
     date_df=spark_class.extract(jdbc_params=jdbc_values)
 
 
-path=conf_file["destination_path"]["sales_teritory_path"]
+path=conf_file["anather_path"]["sales_teritory_path"]
 if os.path.exists(path):
     teritory_df=spark_class.extract(file_format="parquet",file_path=path,inferSchema=True)
 else:
@@ -63,3 +64,6 @@ emp_obj = DimEmployee(spark=spark,
 df = emp_obj.transform()
 # Write the transformed data to a parquet file
 spark_class.write_data(df, file_path=path, file_format="parquet", mode="append")
+
+
+# setx PYTHONPATH "C:\achyutas_ETL_project\com_achyutas_ETL\src;%PYTHONPATH%"

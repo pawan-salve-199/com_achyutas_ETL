@@ -1,5 +1,5 @@
 import sys,os
-path = os.path.dirname(os.path.dirname(__file__))
+path = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 sys.path.insert(1,path)
 from classes.pyspark_class import SparkClass
 from classes.transform_dim.dim_prod_cat import DimProdCat
@@ -12,7 +12,7 @@ from resources.utils import *
 
 if __name__=="__main__":
     # Get the project directory
-    project_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    project_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
     # Read configuration from JSON file
     conf_file = openJson(filepath=f"{project_dir}/src/configs/dim_conf/dim_prod_cat.json")
