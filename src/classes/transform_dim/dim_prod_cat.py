@@ -4,16 +4,22 @@ from pyspark.sql.window import *
 from resources.utils import *
 
 class DimProdCat():
-    def __init__(self,**kwargs):
-        self.logger=kwargs.get("logger")
-        self.spark=kwargs.get("spark")
-        self.dataframe=kwargs.get("dataframe")
+    def __init__(self, **kwargs):
+        """
+        Initialize the DimProdCat class.
+
+        Parameters:
+            logger (logging.Logger): Logger instance for logging messages.
+            spark (pyspark.sql.SparkSession): Spark session instance.
+            dataframe (pyspark.sql.DataFrame): DataFrame containing product category data.
+        """
+        self.logger = kwargs.get("logger")
+        self.spark = kwargs.get("spark")
+        self.dataframe = kwargs.get("dataframe")
 
     def transform(self):
         """
         Generate product category data.
-        Parameters:
-            jdbc_values (dict): JDBC connection parameters for reading data from a database.
 
         Returns:
             pyspark.sql.DataFrame: DataFrame containing product category data.

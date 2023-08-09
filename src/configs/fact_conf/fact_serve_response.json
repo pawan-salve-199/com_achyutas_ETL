@@ -1,0 +1,23 @@
+
+{
+    "log_config":{
+        "file_path":"C:\\achyutas_ETL_project\\com_achyutas_ETL\\src\\app_logs\\fact_serve_response.log",
+        "log_level":"INFO",
+        "log_formatter":"%(asctime)s - %(levelname)s - Line %(lineno)d - %(message)s"
+                 },
+
+    "spark_conf":
+                {
+        "app_name" :"ETL_dim_currency_app",
+        "master" : "local[*]",
+        "spark_config" :
+                       {
+                    "spark.driver.extraClassPath":"C:\\achyutas_ETL_project\\com_achyutas_ETL\\src\\resources\\mssql-jdbc-12.2.0.jre11.jar",
+                    "spark.ui.port":"4050"
+                       } 
+                },
+    "destination_path":"C:\\achyutas_ETL_project\\com_achyutas_ETL\\src\\result_dataset\\FactServeResponse",
+    "anather_path":{"prod_cat_path":"C:\\achyutas_ETL_project\\com_achyutas_ETL\\src\\result_dataset\\DimProductCategory",
+                   "prod_sub_cat_path":"C:\\achyutas_ETL_project\\com_achyutas_ETL\\src\\result_dataset\\DimProductSubcategory",
+                    "customer_path":"C:\\achyutas_ETL_project\\com_achyutas_ETL\\src\\result_dataset\\DimCustomer"}
+}

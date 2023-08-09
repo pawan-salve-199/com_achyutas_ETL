@@ -5,16 +5,22 @@ from pyspark.sql.window import *
 from resources.utils import *
 
 class DimGeography(SparkClass):
-    def __init__(self,**kwargs):
-        self.logger=kwargs.get("logger")
-        self.spark=kwargs.get("spark")
-        self.dataframe=kwargs.get("dataframe")
+    def __init__(self, **kwargs):
+        """
+        Initialize the DimGeography class.
 
-    def transform(self):     
+        Parameters:
+            logger (logging.Logger): Logger instance for logging messages.
+            spark (pyspark.sql.SparkSession): Spark session instance.
+            dataframe (pyspark.sql.DataFrame): DataFrame containing geography data.
+        """
+        self.logger = kwargs.get("logger")
+        self.spark = kwargs.get("spark")
+        self.dataframe = kwargs.get("dataframe")
+
+    def transform(self):
         """
         Generate geography data and combine it with the existing data.
-        Parameters:
-            jdbc_values (dict): JDBC connection parameters for reading data from a database.
 
         Returns:
             pyspark.sql.DataFrame: Combined DataFrame containing geography data.

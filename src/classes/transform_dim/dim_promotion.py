@@ -4,20 +4,27 @@ from pyspark.sql.window import *
 from resources.utils import *
 
 class DimPromotion():
-    def __init__(self,**kwargs):
-        self.logger=kwargs.get("logger")
-        self.spark=kwargs.get("spark")
-        self.dataframe=kwargs.get("dataframe")
+    def __init__(self, **kwargs):
+        """
+        Initialize the DimPromotion class.
+
+        Parameters:
+            logger (logging.Logger): Logger instance for logging messages.
+            spark (pyspark.sql.SparkSession): Spark session instance.
+            dataframe (pyspark.sql.DataFrame): DataFrame containing promotion data.
+        """
+        self.logger = kwargs.get("logger")
+        self.spark = kwargs.get("spark")
+        self.dataframe = kwargs.get("dataframe")
 
     def transform(self):
         """
         Generate promotion data and combine it with the existing data.
-        Parameters:
-            jdbc_values (dict): JDBC connection parameters for reading data from a database.
 
         Returns:
             pyspark.sql.DataFrame: Combined DataFrame containing promotion data.
         """
+
         try:
             # Log info message for promotion data generation
             self.logger.info("Generating promotion data and combining it with the existing data.")

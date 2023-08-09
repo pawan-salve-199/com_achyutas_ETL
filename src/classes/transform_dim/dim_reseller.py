@@ -7,11 +7,21 @@ from resources.utils import *
 import random
 
 class DimReseller(SparkClass):
-    def __init__(self,**kwargs):
-        self.logger=kwargs.get("logger")
-        self.spark=kwargs.get("spark")
-        self.jdbc_values=kwargs.get("jdbc_params")
-        self.geography_df  = kwargs.get("geography_df")
+    def __init__(self, **kwargs):
+        """
+        Initialize the DimReseller class.
+
+        Parameters:
+            logger (logging.Logger): Logger instance for logging messages.
+            spark (pyspark.sql.SparkSession): Spark session instance.
+            jdbc_params (dict): JDBC connection parameters for reading data from a database.
+            geography_df (pyspark.sql.DataFrame): DataFrame containing geography data.
+        """
+        self.logger = kwargs.get("logger")
+        self.spark = kwargs.get("spark")
+        self.jdbc_values = kwargs.get("jdbc_params")
+        self.geography_df = kwargs.get("geography_df")
+
     
     def read_data(self):
         try:
@@ -21,6 +31,12 @@ class DimReseller(SparkClass):
             self.logger.error(f"Exception while reading data: {str(e)}")
 
     def transform(self):
+        """
+        Generate reseller data and combine it with the existing data.
+
+        Returns:
+            pyspark.sql.DataFrame: Combined DataFrame containing reseller data.
+        """
         try:
             self.logger.info("Generating reseller data and combining it with the existing data.")
             jdbcDF=self.read_data()

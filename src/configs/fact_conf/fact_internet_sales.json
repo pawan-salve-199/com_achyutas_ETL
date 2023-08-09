@@ -1,0 +1,30 @@
+
+{
+    "log_config":{
+        "file_path":"src\\app_logs\\fact_internet_sales.log",
+        "log_level":"INFO",
+        "log_formatter":"%(asctime)s - %(levelname)s - Line %(lineno)d - %(message)s"
+                 },
+
+    "spark_conf":
+                {
+        "app_name" :"ETL_dim_currency_app",
+        "master" : "local[*]",
+        "spark_config" :
+                       {
+                    "spark.driver.extraClassPath":"src\\resources\\mssql-jdbc-12.2.0.jre11.jar",
+                    "spark.ui.port":"4050"
+                       } 
+                },
+    "destination_path":"src\\result_dataset\\FactInternetSales",
+    "anather_path":
+    {"fact_reseller_path":"src\\result_dataset\\FactResellerSales",
+    "product_path":"src\\result_dataset\\DimProduct",
+    "date_path":"src\\result_dataset\\DimDate",
+    "employee_path":"src\\result_dataset\\DimEmployee",
+    "promotion_path":"src\\result_dataset\\DimPromotion",
+    "currency_path":"src\\result_dataset\\DimCurrency",
+    "sales_teritory_path":"src\\result_dataset\\DimSalesTerritory",
+    "dim_reseller_path":"src\\result_dataset\\DimReseller"
+    }
+}

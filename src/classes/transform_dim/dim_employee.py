@@ -4,22 +4,27 @@ from pyspark.sql.window import *
 from resources.utils import *
 
 class DimEmployee():
-    def __init__(self,**kwargs):
-        self.logger=kwargs.get("logger")
-        self.spark=kwargs.get("spark")
-        self.emp_df=kwargs.get("emp_df")
-        self.date_df=kwargs.get("date_df")
-        self.sales_teritory_dF=kwargs.get("sales_teritory_dF")
+    def __init__(self, **kwargs):
+        """
+        Initialize the DimEmployee class.
+
+        Parameters:
+            logger (logging.Logger): Logger instance for logging messages.
+            spark (pyspark.sql.SparkSession): Spark session instance.
+            emp_df (pyspark.sql.DataFrame): DataFrame containing employee data.
+            date_df (pyspark.sql.DataFrame): DataFrame containing date data.
+            sales_teritory_df (pyspark.sql.DataFrame): DataFrame containing sales territory data.
+        """
+        self.logger = kwargs.get("logger")
+        self.spark = kwargs.get("spark")
+        self.emp_df = kwargs.get("emp_df")
+        self.date_df = kwargs.get("date_df")
+        self.sales_teritory_dF = kwargs.get("sales_teritory_dF")
 
     def transform(self):
         """
         Generate employee data and combine it with the existing data.
-        Parameters:
-            jdbc_values (dict): JDBC connection parameters for reading data from a database.
-            **kargs: Additional keyword arguments.
-                employee_df (pyspark.sql.DataFrame): DataFrame containing employee data.
-                date_df (pyspark.sql.DataFrame): DataFrame containing date data.
-                sales_teritory_df (pyspark.sql.DataFrame): DataFrame containing sales territory data.
+
         Returns:
             pyspark.sql.DataFrame: Combined DataFrame containing employee data.
         """

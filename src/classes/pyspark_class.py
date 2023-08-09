@@ -1,4 +1,5 @@
 from pyspark.sql import SparkSession
+import sys
 
 class SparkClass:
     def __init__(self, logger_obj=None, config={}):
@@ -31,7 +32,7 @@ class SparkClass:
             return self.spark
         except Exception as e:
             self.logger.error(f"Error starting Spark session: {str(e)}")
-            raise e
+            sys.exit()
 
     def create_session(self):
         """
@@ -51,7 +52,7 @@ class SparkClass:
             return spark
         except Exception as e:
             self.logger.error(f"Error creating Spark session: {str(e)}")
-            raise e
+            sys.exit()
 
 
     def disconnect(self):
@@ -67,6 +68,7 @@ class SparkClass:
                 self.logger.warning("Trying to disconnect when Spark session is not initialized.")
         except Exception as e:
             self.logger.error(f"Error while disconnecting Spark session: {str(e)}")
+            sys.exit()
 
     def extract(self, file_path=None, file_format="jdbc", jdbc_params={}, **options):
         """
@@ -88,6 +90,11 @@ class SparkClass:
         try:
             if not isinstance(self.spark, SparkSession):
                 raise ValueError("Spark session is not initialized. Please connect first.")
+            
+            if file_format.upper()=="JDBC":
+                file_name=jdbc_params.get("table")
+            else:
+                file_name=file_path.split("\\")[-1]
 
             if file_format.upper() == "JDBC":
                 jdbc_url = f"jdbc:sqlserver://localhost:{jdbc_params.get('localhost')};databaseName={jdbc_params.get('database')};trustServerCertificate=true;"
@@ -98,14 +105,18 @@ class SparkClass:
                                     .option("driver", "com.microsoft.sqlserver.jdbc.SQLServerDriver") \
                                     .load()
                 self.logger.info(f"Data read from JDBC source for {jdbc_params.get('table')}")
+
                 return jdbcDF
+            
             else:
                 df = self.spark.read.format(file_format).load(file_path, **options)
-                self.logger.info("Data read from file.")
+                self.logger.info(f"Data read from {file_name} file.")
+            
                 return df
+        
         except Exception as e:
-            self.logger.error(f"Error while reading data: {str(e)}")
-            raise e
+            self.logger.error(f"Error while reading data from {file_name}: {str(e)}")
+            sys.exit()
 
     def write_data(self, df, mode, file_path, file_format="parquet", **options):
         """
@@ -120,7 +131,6 @@ class SparkClass:
 
         Raises:
             ValueError: If the Spark session is not initialized.
-
         """
         try:
             if not isinstance(self.spark, SparkSession):
@@ -131,8 +141,9 @@ class SparkClass:
                 pass
             else:
                 df.write.format(file_format).mode(mode).save(file_path, **options)
-                self.logger.info("Data written to file.")
+                file_name=file_path.split("\\")[-1]
+                self.logger.info(f"Data written to {file_name} file.")
         except Exception as e:
             self.logger.error(f"Error while writing data: {str(e)}")
-            raise e
+            sys.exit()
         

@@ -1,0 +1,18 @@
+{
+    "log_config":{
+        "file_path":"src\\app_logs\\fact_reseller.log",
+        "log_level":"INFO",
+        "log_formatter":"%(asctime)s - %(levelname)s - Line %(lineno)d - %(message)s"
+                 },
+
+    "spark_conf":
+                {
+        "app_name" :"ETL_dim_currency_app",
+        "master" : "local[*]",
+        "spark_config" :
+                       {
+                    "spark.driver.extraClassPath":"src\\resources\\mssql-jdbc-12.2.0.jre11.jar"
+                       } 
+                },
+    "destination_path":"src\\result_dataset\\FactReseller"
+}

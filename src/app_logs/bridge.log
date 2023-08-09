@@ -5,3 +5,10 @@
 2023-08-04 14:47:13,559 - INFO - Line 36 - Bridge data generated successfully.
 2023-08-04 14:47:23,858 - INFO - Line 134 - Data written to file.
 ------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-08 16:29:27,135 - INFO - Line 29 - Entering start_spark method.
+2023-08-08 16:29:38,046 - INFO - Line 51 - Configured the Spark for the specified dependencies
+2023-08-08 16:29:38,048 - INFO - Line 31 - Spark Session Initialized.
+2023-08-08 16:29:38,050 - INFO - Line 16 - Generating bridge data for subcategories and products.
+2023-08-08 16:29:44,475 - INFO - Line 36 - Bridge data generated successfully.
+2023-08-08 16:29:56,136 - INFO - Line 145 - Data written to Bridgesubcatproduct2 file.
+------------------------------------------------------------------------------------------------------------------------------------------------------

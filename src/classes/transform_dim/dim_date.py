@@ -5,7 +5,17 @@ from pyspark.sql.window import *
 from resources.utils import *
 
 class DimDate(SparkClass):
+
     def __init__(self,**kwargs):
+        """
+        Initialize the DimDate class.
+
+        Parameters:
+            logger (logging.Logger): Logger instance for logging messages.
+            spark (pyspark.sql.SparkSession): Spark session instance.
+            jdbc_params (dict): JDBC connection parameters for reading data from a database.
+            dataframe (pyspark.sql.DataFrame): Input DataFrame.
+        """
         self.logger=kwargs.get("logger")
         self.spark=kwargs.get("spark")
         self.jdbc_values=kwargs.get("jdbc_params")

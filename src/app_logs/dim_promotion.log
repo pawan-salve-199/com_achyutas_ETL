@@ -6,3 +6,11 @@
 2023-08-04 15:45:25,515 - INFO - Line 59 - Promotion data generated successfully and combined with the existing data.
 2023-08-04 15:45:34,706 - INFO - Line 134 - Data written to file.
 ------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-07 13:57:45,832 - INFO - Line 28 - Entering start_spark method.
+2023-08-07 13:58:06,261 - INFO - Line 50 - Configured the Spark for the specified dependencies
+2023-08-07 13:58:06,262 - INFO - Line 30 - Spark Session Initialized.
+2023-08-07 13:58:16,721 - INFO - Line 100 - Data read from JDBC source for DimPromotion
+2023-08-07 13:58:16,722 - INFO - Line 23 - Generating promotion data and combining it with the existing data.
+2023-08-07 13:58:25,128 - INFO - Line 58 - Promotion data generated successfully and combined with the existing data.
+2023-08-07 13:58:38,777 - INFO - Line 134 - Data written to file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
