@@ -1,12 +1,12 @@
 import sys,os
 path = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 sys.path.insert(1,path)
-from classes.pyspark_class import SparkClass
-from classes.transform_fact.fact_reseller import FactReseller
-from classes.logging_class import LoggingConfig
+from src.dependencies.pyspark_class import SparkClass
+from transform_fact.fact_reseller import FactReseller
+from src.dependencies.logging_class import LoggingConfig
 import logging,sys,os
 from configs.jdbc_conf.config import get_jdbc_config
-from resources.utils import *
+from src.resources.utils import *
 
 
 if __name__=="__main__":
@@ -40,5 +40,7 @@ if __name__=="__main__":
 
     # Perform data transformationa
     df = emp_obj.transform()
+
+
     # Write the transformed data to a parquet file
     spark_class.write_data(df, file_path=path, file_format="parquet", mode="append")

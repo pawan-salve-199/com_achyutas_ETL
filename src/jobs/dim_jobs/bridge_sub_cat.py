@@ -1,11 +1,11 @@
 import sys,os
 path = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 sys.path.insert(1,path)
-from classes.pyspark_class import SparkClass
-from classes.transform_dim.bridge_sub_cat import bridge_sub_cat_product
-from classes.logging_class import LoggingConfig
+from src.dependencies.pyspark_class import SparkClass
+from src.transform_dim.bridge_sub_cat import bridge_sub_cat_product
+from src.dependencies.logging_class import LoggingConfig
 import sys,os
-from resources.utils import openJson
+from src.resources.utils import openJson
 
 if __name__=="__main__":
     # Get the project directory

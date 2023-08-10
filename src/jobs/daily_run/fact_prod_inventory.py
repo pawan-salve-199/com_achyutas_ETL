@@ -1,12 +1,12 @@
 import sys,os
-path = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
-sys.path.insert(1,path)
-from classes.pyspark_class import SparkClass
-from classes.transform_fact.fact_prod_inventory import FactProdInventory
-from classes.logging_class import LoggingConfig
+# path = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+# sys.path.insert(1,path)
+from src.src.dependencies.pyspark_class import SparkClass
+from src.transform_fact.fact_prod_inventory import FactProdInventory
+from src.src.dependencies.logging_class import LoggingConfig
 import logging,sys,os
-from configs.jdbc_conf.config import get_jdbc_config
-from resources.utils import *
+from src.configs.jdbc_conf.config import get_jdbc_config
+from src.src.resources.utils import *
 
 # Get the project directory
 project_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))

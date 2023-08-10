@@ -2,12 +2,12 @@ import sys,os
 path = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 sys.path.insert(1,path)
 
-from classes.pyspark_class import SparkClass
-from classes.transform_dim.dim_customer import DimCustomer
-from classes.logging_class import LoggingConfig
+from src.dependencies.pyspark_class import SparkClass
+from src.transform_dim.dim_customer import DimCustomer
+from src.dependencies.logging_class import LoggingConfig
 import logging,sys,os
 from configs.jdbc_conf.config import get_jdbc_config
-from resources.utils import *
+from src.resources.utils import *
 
 # Get the project directory
 project_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))

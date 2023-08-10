@@ -2,9 +2,9 @@ from pyspark.sql.functions import *
 from pyspark.sql.types import *
 from pyspark.sql.window import *
 from faker import Faker
-from classes.pyspark_class import SparkClass
-from classes.logging_class import LoggingConfig
-from resources.utils import *
+from src.dependencies.pyspark_class import SparkClass
+from src.dependencies.logging_class import LoggingConfig
+from src.resources.utils import *
 import random,logging
 
 class DataGenerater(SparkClass,LoggingConfig):
