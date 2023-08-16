@@ -36,12 +36,9 @@ class FactInternetSales:
         sales_teritory_list = [i[0] for i in sales_teritory_df.select("SalesTerritoryKey").collect()]
 
         
-
         # Find the maximum sales order id
 
         max_sales_order_id = fact_reseller_df.select(max(split("SalesOrderNumber", 'SO')[1]).astype(IntegerType())).collect()[0][0]
-
-        
 
         # Generate sample data
 

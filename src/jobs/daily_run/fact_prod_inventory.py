@@ -1,9 +1,9 @@
 import sys,os
 # path = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 # sys.path.insert(1,path)
-from src.src.dependencies.pyspark_class import SparkClass
+from src.dependencies.pyspark_class import SparkClass
 from src.transform_fact.fact_prod_inventory import FactProdInventory
-from src.src.dependencies.logging_class import LoggingConfig
+from src.dependencies.logging_class import LoggingConfig
 import logging,sys,os
 from src.configs.jdbc_conf.config import get_jdbc_config
 from src.src.resources.utils import *

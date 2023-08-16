@@ -3,3 +3,4 @@ pyspark == 3.4.1
 Faker== 19.2.0
 python-dotenv == 1.0.0
 make
+boto3

@@ -175,3 +175,11 @@ It is possible the underlying files have been updated. You can explicitly invali
 2023-08-09 14:39:34,291 - INFO - Line 52 - Product category data generated successfully.
 2023-08-09 14:39:53,728 - INFO - Line 145 - Data written to DimProductCategory file.
 ------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-11 10:10:32,415 - INFO - Line 29 - Entering start_spark method.
+2023-08-11 10:10:51,609 - INFO - Line 51 - Configured the Spark for the specified src.dependencies
+2023-08-11 10:10:51,609 - INFO - Line 31 - Spark Session Initialized.
+2023-08-11 10:11:01,064 - INFO - Line 107 - Data read from JDBC source for DimProductCategory
+2023-08-11 10:11:08,423 - INFO - Line 28 - Generating productcategory data and combining it with the existing data.
+2023-08-11 10:11:18,623 - INFO - Line 52 - Product category data generated successfully.
+2023-08-11 10:11:43,349 - INFO - Line 145 - Data written to DimProductCategory file.
+------------------------------------------------------------------------------------------------------------------------------------------------------

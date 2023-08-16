@@ -7,6 +7,7 @@ from src.dependencies.logging_class import LoggingConfig
 import logging,sys,os
 from configs.jdbc_conf.config import get_jdbc_config
 from src.resources.utils import *
+import boto3
 
 # Get the project directory
 project_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))

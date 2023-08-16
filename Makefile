@@ -1,4 +1,8 @@
 # Define a target to install all the requirements using pip
+
+run_all_dim_files:
+	for %%i in ($(SCRIPTS_DIR)\*.py) do python %%i
+
 install_requirements:
 	pip install -r requirements.txt
 venv_activate:
@@ -16,8 +20,7 @@ create_zip:
 SCRIPTS_DIR := src\jobs\dim_jobs
 
 # Define a target to run all .py files in the dim_jobs directory
-run_all_dim_files:
-	for %%i in ($(SCRIPTS_DIR)\*.py) do python %%i
+
 
 DIM_JOBS_DIR := src\jobs\daily_run
 
@@ -27,5 +30,3 @@ run_all_fact_files:
 
 run_dim_fact_jobs: run_all_dim_files run_all_fact_files
 
-
-set PYTHONPATH=C:\achyutas_ETL_project\com_achyutas_ETL\src;%PYTHONPATH%

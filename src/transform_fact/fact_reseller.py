@@ -28,17 +28,13 @@ class FactReseller():
 
         current_max_number = int(max_sales_order_number[2:])
 
-        sample_df = df.sample(withReplacement=False, fraction=0.15).cache()
+        sample_df = df.sample(withReplacement=False, fraction=0.75).cache()
 
         sample_count = sample_df.count()
 
-        SalesOrderLineNumber = [1, 2, 3, 4, 5]
-
 
         sample_df2 = sample_df.withColumn("incremented_id", row_number().over(Window.orderBy(lit(0))) + current_max_number + 1) \
-        .withColumn("SalesOrderNumber", format_string("SO%05d", col("incremented_id"))) \
-        .withColumn('SalesOrderLineNumber', array(*[lit(x) for x in SalesOrderLineNumber])) \
-        .withColumn('SalesOrderLineNumber', explode(col('SalesOrderLineNumber'))).cache()
+        .withColumn("SalesOrderNumber", format_string("SO%05d", col("incremented_id")))
 
         new_df = sample_df2.withColumn('OrderDateKey', date_format(current_date(), 'yyyyMMdd')) \
         .withColumn('OrderDateKey', to_date(col('OrderDateKey').cast("string"), "yyyyMMdd")) \

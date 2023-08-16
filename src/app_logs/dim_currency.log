@@ -78,3 +78,47 @@
 2023-08-10 14:16:37,285 - INFO - Line 39 - Currency data generated successfully and combined with the existing data.
 2023-08-10 14:16:45,658 - INFO - Line 145 - Data written to DimCurrency file.
 ------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-10 14:33:32,325 - INFO - Line 29 - Entering start_spark method.
+2023-08-10 14:33:54,605 - INFO - Line 51 - Configured the Spark for the specified src.dependencies
+2023-08-10 14:33:54,605 - INFO - Line 31 - Spark Session Initialized.
+2023-08-10 14:34:03,224 - INFO - Line 107 - Data read from JDBC source for DimCurrency
+2023-08-10 14:34:03,225 - INFO - Line 29 - Generating Currency data and combining it with the existing data.
+2023-08-10 14:34:09,486 - INFO - Line 39 - Currency data generated successfully and combined with the existing data.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-10 14:46:25,230 - ERROR - Line 118 - Error while reading data from : Spark session is not initialized. Please connect first.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-10 14:49:58,867 - ERROR - Line 118 - Error while reading data from : Spark session is not initialized. Please connect first.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-10 14:52:39,631 - INFO - Line 113 - Data read from DimCurrency file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-10 14:53:59,057 - INFO - Line 113 - Data read from DimCurrency file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-10 14:54:37,004 - INFO - Line 113 - Data read from DimCurrency file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-10 15:55:19,546 - ERROR - Line 118 - Error while reading data from : Spark session is not initialized. Please connect first.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-10 15:55:52,920 - ERROR - Line 118 - Error while reading data from : Spark session is not initialized. Please connect first.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-10 16:01:51,312 - INFO - Line 29 - Entering start_spark method.
+2023-08-10 16:02:03,151 - INFO - Line 51 - Configured the Spark for the specified src.dependencies
+2023-08-10 16:02:03,152 - INFO - Line 31 - Spark Session Initialized.
+2023-08-10 16:02:11,640 - INFO - Line 113 - Data read from DimCurrency file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-10 16:04:27,806 - INFO - Line 29 - Entering start_spark method.
+2023-08-10 16:04:36,969 - INFO - Line 51 - Configured the Spark for the specified src.dependencies
+2023-08-10 16:04:36,969 - INFO - Line 31 - Spark Session Initialized.
+2023-08-10 16:04:44,965 - INFO - Line 113 - Data read from DimCurrency file.
+2023-08-10 16:04:44,965 - INFO - Line 29 - Generating Currency data and combining it with the existing data.
+2023-08-10 16:04:49,692 - INFO - Line 39 - Currency data generated successfully and combined with the existing data.
+2023-08-10 16:04:56,376 - INFO - Line 145 - Data written to DimCurrency file.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2023-08-11 10:06:23,715 - INFO - Line 29 - Entering start_spark method.
+2023-08-11 10:06:41,704 - INFO - Line 51 - Configured the Spark for the specified src.dependencies
+2023-08-11 10:06:41,704 - INFO - Line 31 - Spark Session Initialized.
+2023-08-11 10:06:54,182 - INFO - Line 113 - Data read from DimCurrency file.
+2023-08-11 10:06:54,182 - INFO - Line 29 - Generating Currency data and combining it with the existing data.
+2023-08-11 10:07:01,347 - INFO - Line 39 - Currency data generated successfully and combined with the existing data.
+2023-08-11 10:07:11,536 - INFO - Line 145 - Data written to DimCurrency file.
+------------------------------------------------------------------------------------------------------------------------------------------------------

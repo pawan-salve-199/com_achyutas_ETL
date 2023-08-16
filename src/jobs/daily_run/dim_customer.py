@@ -34,7 +34,6 @@ else:
 
 print(f"before transforming the customer data : {dim_customer_df.count()}")
 
-
 #read the geography data
 geography_path=conf_file["anather_path"]["geograhy_path"]
 
@@ -45,6 +44,8 @@ else:
     geo_jdbc_values=get_jdbc_config("DimGeography")
     geo_df=spark_class.extract(jdbc_params=geo_jdbc_values)
 
+print('the customer df is : ', dim_customer_df.show())
+
 
 #Create a DimReseller object
 dim_customer_obj = DimCustomer(spark=spark,
@@ -54,10 +55,12 @@ dim_customer_obj = DimCustomer(spark=spark,
 
 # Perform data transformationa
 df = dim_customer_obj.transform()
-print(f"after  transforming the customer data : {df.count()}")
+
+print('df before transformation : ',df.show())
+# print(f"after  transforming the customer data : {df.count()}")
 
 # Define the destination path for writing the output
-destination_path = conf_file["destination_path"]
+# destination_path = conf_file["destination_path"]
 
 # Write the transformed data to a parquet file
-spark_class.write_data(df, file_path=destination_path, file_format="parquet", mode="append")
+# spark_class.write_data(df, file_path=destination_path, file_format="parquet", mode="append")

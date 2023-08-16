@@ -43,7 +43,7 @@ class FactServeResponse():
         final_fact_df = FSalesRes.unionByName(fact_df)
 
         max_id = final_fact_df.select(max("SurveyResponseKey")).collect()[0][0]
-        sample_df=final_fact_df.sample(withReplacement=False,fraction=0.25)
+        sample_df=final_fact_df.sample(withReplacement=False,fraction=0.75)
         new_df=sample_df.withColumn("SurveyResponseKey",max_id + row_number().over(Window.orderBy(monotonically_increasing_id()))).withColumn("DateKey",date_format(current_date(), "yyyyMMdd")).withColumn("Date", date_format(current_date(), "yyyy-MM-dd'T'HH:mm:ss.SSSZ"))
 
         final_fact_df = final_fact_df.union(new_df)

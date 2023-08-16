@@ -2,7 +2,7 @@ from pyspark.sql import SparkSession
 import sys
 
 class SparkClass:
-    def __init__(self, logger_obj=None, config={}):
+    def __init__(self, logger_obj=None, config={},spark_session=None):
         """
         Initialize the SparkClass instance.
 
@@ -14,7 +14,7 @@ class SparkClass:
         self.app_name = config.get("app_name")
         self.master = config.get('master')
         self.spark_config = config.get("spark_config")
-        self.spark = None
+        self.spark = spark_session
         self.logger = logger_obj
 
     def start_spark(self):
@@ -115,7 +115,7 @@ class SparkClass:
                 return df
         
         except Exception as e:
-            self.logger.error(f"Error while reading data from {file_name}: {str(e)}")
+            self.logger.error(f"Error while reading data from : {str(e)}")
             sys.exit()
 
     def write_data(self, df, mode, file_path, file_format="parquet", **options):

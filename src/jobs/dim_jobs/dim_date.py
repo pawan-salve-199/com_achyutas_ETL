@@ -1,6 +1,4 @@
 import sys,os
-path = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
-sys.path.insert(1,path)
 from src.dependencies.pyspark_class import SparkClass
 from src.transform_dim.dim_date import DimDate
 from src.dependencies.logging_class import LoggingConfig

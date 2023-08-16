@@ -12,7 +12,7 @@ class FactProdInventory():
     def transform(self):
         jdbcDF = self.dataframe
 
-        sample_df = jdbcDF.sample(withReplacement=False, fraction=0.55)
+        sample_df = jdbcDF.sample(withReplacement=False, fraction=0.75)
 
         max_UnitsIn_Out = 498
         min_UnitsIn_Out = 0
